@@ -1,0 +1,115 @@
+CRITICAL - 2021-12-24 00:37:08 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(289): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 00:37:22 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(270): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 00:37:27 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(238): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 00:37:30 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(238): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 00:37:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(238): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 00:37:39 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(238): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 00:37:44 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(238): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 00:38:18 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(238): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 00:38:45 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(238): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 00:38:49 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(238): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 00:38:53 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(238): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 00:39:37 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(238): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-24 00:39:41 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(238): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-24 00:43:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's standard dummy text ever since the 1500s, when an unknown printer took a ga...' at line 1
+CRITICAL - 2021-12-24 00:43:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's standard dummy text ever since the 1500s, when an unknown printer took a ga...' at line 1
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE projects...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE projects...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE projects...')
+#3 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(43): CodeIgniter\Database\BaseConnection->query('UPDATE projects...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(284): App\Models\CommentModel->insert_comment('7', '[{"who":"Admin ...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-24 00:44:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's standard dummy text ever since the 1500s, when an unknown printer took a ga...' at line 1
+CRITICAL - 2021-12-24 00:44:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 's standard dummy text ever since the 1500s, when an unknown printer took a ga...' at line 1
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE projects...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE projects...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE projects...')
+#3 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(43): CodeIgniter\Database\BaseConnection->query('UPDATE projects...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(284): App\Models\CommentModel->insert_comment('7', '[{"who":"Admin ...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

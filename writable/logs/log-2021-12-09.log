@@ -1,0 +1,231 @@
+ERROR - 2021-12-09 00:58:50 --> Column 'FIRST_NAME' cannot be null
+ERROR - 2021-12-09 00:59:00 --> Column 'FIRST_NAME' cannot be null
+ERROR - 2021-12-09 00:59:52 --> Column 'FIRST_NAME' cannot be null
+ERROR - 2021-12-09 01:01:45 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`users`, CONSTRAINT `ID` FOREIGN KEY (`RID`) REFERENCES `role` (`ID`))
+ERROR - 2021-12-09 01:03:33 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`users`, CONSTRAINT `ID` FOREIGN KEY (`RID`) REFERENCES `role` (`ID`))
+ERROR - 2021-12-09 01:05:01 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`users`, CONSTRAINT `ID` FOREIGN KEY (`RID`) REFERENCES `role` (`ID`))
+CRITICAL - 2021-12-09 01:14:24 --> syntax error, unexpected 'protected' (T_PROTECTED), expecting ',' or ';'
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(12): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->index()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-09 01:14:29 --> syntax error, unexpected 'protected' (T_PROTECTED), expecting ',' or ';'
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(18): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->create()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-09 01:14:33 --> syntax error, unexpected 'protected' (T_PROTECTED), expecting ',' or ';'
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(12): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->index()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-09 01:14:41 --> syntax error, unexpected '='
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(12): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->index()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-09 01:14:45 --> syntax error, unexpected '='
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(18): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->create()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-09 01:14:53 --> syntax error, unexpected '='
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(18): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->create()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-09 01:15:07 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`users`, CONSTRAINT `ID` FOREIGN KEY (`RID`) REFERENCES `role` (`ID`))
+CRITICAL - 2021-12-09 01:20:46 --> syntax error, unexpected '='
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(12): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->index()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-09 01:21:21 --> syntax error, unexpected '='
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(18): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->create()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-09 01:21:27 --> syntax error, unexpected '='
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(12): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->index()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-09 01:21:28 --> syntax error, unexpected '='
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(12): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->index()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-09 01:24:03 --> syntax error, unexpected '='
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(12): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->index()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-09 01:24:09 --> syntax error, unexpected '='
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(18): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->create()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-09 01:24:50 --> syntax error, unexpected '='
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Demoapi.php(12): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Demoapi->index()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Demoapi))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-09 01:33:06 --> Duplicate entry 'DoeJohn55@gmail.com' for key 'EMAIL'
+ERROR - 2021-12-09 04:32:12 --> Column 'RID' cannot be null
+ERROR - 2021-12-09 04:33:38 --> Duplicate entry 'DoeJohn55@gmail.com' for key 'EMAIL'
+ERROR - 2021-12-09 04:36:00 --> Duplicate entry 'DoeJohn55@gmail.com' for key 'EMAIL'
+CRITICAL - 2021-12-09 05:00:06 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:01:10 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:01:18 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:01:23 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:01:59 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:02:08 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:02:23 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:03:24 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:12:24 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:12:33 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:13:03 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:13:34 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:13:45 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:13:56 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:25:44 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:25:52 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+CRITICAL - 2021-12-09 05:25:53 --> syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#3 {main}
+ERROR - 2021-12-09 05:26:43 --> Column 'RID' cannot be null
+ERROR - 2021-12-09 05:30:38 --> Column 'RID' cannot be null
+ERROR - 2021-12-09 05:51:47 --> Duplicate entry 'DoeJohn57@gmail.com' for key 'EMAIL'
+ERROR - 2021-12-09 05:52:43 --> Duplicate entry 'DoeJohn57@gmail.com' for key 'EMAIL'
+ERROR - 2021-12-09 05:55:37 --> Duplicate entry 'DoeJohn67@gmail.com' for key 'EMAIL'

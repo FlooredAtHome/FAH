@@ -1,0 +1,26 @@
+CRITICAL - 2022-03-09 00:52:58 --> Undefined variable $vendordata
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-09 00:53:44 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Admin/admin', Array, true)
+#3 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(50): view('Admin/admin')
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->vendor()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-03-09 00:55:10 --> Invalid file: Admin/customer.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/customer....')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Admin/customer', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(37): view('Admin/customer', Array)
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

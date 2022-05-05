@@ -1,0 +1,154 @@
+ERROR - 2022-02-16 04:05:43 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`comments`, CONSTRAINT `fk_blog_comment_blog1` FOREIGN KEY (`pid`) REFERENCES `projects` (`PID`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+CRITICAL - 2022-02-16 04:05:43 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`comments`, CONSTRAINT `fk_blog_comment_blog1` FOREIGN KEY (`pid`) REFERENCES `projects` (`PID`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO com...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO com...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO com...')
+#3 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(41): CodeIgniter\Database\BaseConnection->query('INSERT INTO com...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(185): App\Models\CommentModel->add_comment(Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-16 04:06:32 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(185): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-16 04:06:51 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(185): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-16 04:10:19 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(185): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-16 04:13:33 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(185): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-16 04:36:46 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(185): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-16 04:42:41 --> Call to undefined function App\Controllers\mysql_to_php_date()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 04:43:32 --> Call to undefined function App\Controllers\mysql_to_php_date()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 04:43:44 --> Call to undefined function App\Controllers\mysql_to_php_date()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 04:44:09 --> Call to undefined function App\Controllers\mysql_to_php_date()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 04:47:31 --> Call to undefined function App\Controllers\mysql_to_php_date()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 04:48:25 --> Undefined variable $commenter
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 194)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-16 04:49:59 --> Undefined variable $commenter
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 194)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-16 04:50:37 --> Undefined variable $commenter
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 194)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-16 04:51:19 --> Undefined variable $commenter
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 194)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-16 04:53:21 --> Call to a member function setContentType() on null
+#0 C:\xampp\htdocs\FAH\system\API\ResponseTrait.php(99): CodeIgniter\RESTful\ResourceController->format(Array)
+#1 C:\xampp\htdocs\FAH\system\API\ResponseTrait.php(152): CodeIgniter\RESTful\ResourceController->respond(Array, 201, '')
+#2 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(324): CodeIgniter\RESTful\ResourceController->respondCreated(Array)
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->add_comment()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-16 04:58:48 --> Undefined variable $commenter
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(326): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 326)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->add_comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-02-16 05:03:39 --> Call to undefined function App\Controllers\mysqli_to_php_date()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->add_comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 05:03:48 --> Call to undefined function App\Controllers\mysqli_to_php_date()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->add_comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-16 05:04:21 --> Call to undefined function App\Controllers\mysqli_to_php_date()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->add_comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

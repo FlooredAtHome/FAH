@@ -1,0 +1,191 @@
+CRITICAL - 2022-05-02 02:33:06 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 02:33:15 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 02:40:14 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 02:40:19 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:17:12 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:23:14 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:23:18 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:25:50 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:25:50 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:27:29 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(205): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 205)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:37:48 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 207)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:38:02 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 207)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:39:45 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 207)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:48:11 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-02 03:50:27 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-02 03:50:27 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-02 03:54:52 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 03:56:25 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-02 03:57:18 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-02 03:57:18 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(208): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 208)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:13:56 --> Maximum execution time of 120 seconds exceeded
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-05-02 04:31:34 --> Column 'LOGINTIME' cannot be null
+CRITICAL - 2022-05-02 04:31:34 --> Column 'LOGINTIME' cannot be null
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\FAH\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\FAH\app\Models\TimingModel.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(96): App\Models\TimingModel->timeclick('11', 'fahportal@gmail...', NULL, 'login')
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->verify()
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#8 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-02 04:31:59 --> Column 'LOGINTIME' cannot be null
+CRITICAL - 2022-05-02 04:31:59 --> Column 'LOGINTIME' cannot be null
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `lo...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `lo...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `lo...')
+#3 C:\xampp\htdocs\FAH\system\Database\BaseBuilder.php(1759): CodeIgniter\Database\BaseConnection->query('INSERT INTO `lo...', Array, false)
+#4 C:\xampp\htdocs\FAH\app\Models\TimingModel.php(26): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(96): App\Models\TimingModel->timeclick('11', 'fahportal@gmail...', NULL, 'login')
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->verify()
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#8 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-02 04:41:54 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(608): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 608)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:41:58 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(608): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 608)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:42:27 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 300)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:42:35 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 300)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:42:43 --> Trying to access array offset on value of type bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(300): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 300)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-02 04:44:43 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(226): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

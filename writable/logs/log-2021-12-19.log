@@ -1,0 +1,114 @@
+CRITICAL - 2021-12-19 00:18:22 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\FahAPI->create()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FahAPI))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-19 00:19:34 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\FahAPI->create()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FahAPI))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-19 00:54:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::raw()
+#0 C:\xampp\htdocs\FAH\app\Controllers\FahAPI.php(141): App\Models\APIModel->insertId('customerzohoid@...', 'CFAH12345')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\FahAPI->create()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FahAPI))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-12-19 00:57:20 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-19 00:58:31 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-19 00:59:51 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+CRITICAL - 2021-12-19 01:43:42 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getValue()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->resetpasswordLink()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-19 01:52:14 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->resetpasswordLink()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-19 01:54:15 --> Undefined array key "EMAIL"
+#0 C:\xampp\htdocs\FAH\app\Views\Admin\customer.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Admin/customer', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(23): view('Admin/customer', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 01:54:46 --> Undefined array key "EMAIL"
+#0 C:\xampp\htdocs\FAH\app\Views\Admin\customer.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Admin/customer', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(23): view('Admin/customer', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 01:55:30 --> Undefined array key "EMAIL"
+#0 C:\xampp\htdocs\FAH\app\Views\Admin\customer.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Admin/customer', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(23): view('Admin/customer', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 01:55:50 --> Undefined array key "EMAIL"
+#0 C:\xampp\htdocs\FAH\app\Views\Admin\customer.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Admin/customer', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(23): view('Admin/customer', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 01:55:57 --> Undefined array key "EMAIL"
+#0 C:\xampp\htdocs\FAH\app\Views\Admin\customer.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Admin/customer', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(23): view('Admin/customer', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-19 02:20:16 --> Call to undefined function App\Controllers\getElementByID()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->resetpasswordLink()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-19 02:22:15 --> Class "App\Controllers\domDocument" not found
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->resetpasswordLink()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-19 10:26:27 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Admin/vendor', Array, true)
+#3 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(30): view('Admin/vendor', Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->vendor()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

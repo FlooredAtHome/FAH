@@ -1,0 +1,485 @@
+CRITICAL - 2021-12-14 01:10:04 --> Array to string conversion
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(143): App\Models\CommentModel->insert_comment('7', Array)
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 01:13:31 --> Array to string conversion
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('7', Array)
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 01:14:40 --> Array to string conversion
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(143): App\Models\CommentModel->insert_comment('7', Array)
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 01:22:22 --> Call to undefined function App\Controllers\stringify()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-14 01:23:32 --> Undefined variable $myJSON
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(144): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 144)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-14 01:23:49 --> Undefined constant "App\Controllers\myJSON"
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-14 01:24:12 --> Array to string conversion
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(146): App\Models\CommentModel->insert_comment('7', Array)
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 01:25:46 --> Array to string conversion
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(146): App\Models\CommentModel->insert_comment('7', Array)
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 01:25:54 --> Array to string conversion
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(146): App\Models\CommentModel->insert_comment('7', Array)
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 01:30:42 --> Array to string conversion
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(143): App\Models\CommentModel->insert_comment('7', Array)
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 01:33:59 --> Attempt to read property "first_name" on array
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(143): App\Models\CommentModel->insert_comment('7', Array)
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 01:34:39 --> Attempt to read property "first_name" on string
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(143): App\Models\CommentModel->insert_comment('7', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 01:35:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::affected_rows()
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(143): App\Models\CommentModel->insert_comment('7', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-14 01:36:05 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Comm...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(17): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Comm...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\UserHome->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-14 01:37:56 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-14 01:38:45 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-14 01:39:22 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-14 01:39:26 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-14 01:40:12 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-14 01:41:17 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-14 01:42:44 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-14 01:42:46 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-14 01:43:00 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-14 01:43:47 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-14 01:44:30 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-14 01:44:53 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+ERROR - 2021-12-14 01:48:00 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+CRITICAL - 2021-12-14 03:12:47 --> array_merge(): Argument #1 must be of type array, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(35): array_merge(Object(CodeIgniter\Database\MySQLi\Result), '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:13:13 --> Undefined variable $oldcom
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:13:22 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(34): array_merge('SELECT COMMENTS...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:14:41 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(36): array_merge('SELECT COMMENTS...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:15:13 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(36): array_merge('SELECT COMMENTS...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:19:19 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(36): array_merge('SELECT COMMENTS...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:19:24 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(36): array_merge('SELECT COMMENTS...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:19:50 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(36): array_merge('SELECT COMMENTS...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:25:18 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(37): array_merge('SELECT COMMENTS...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:25:34 --> array_merge(): Argument #2 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(37): array_merge(Array, '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:26:25 --> Call to a member function getRowArray() on string
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-14 03:27:01 --> array_merge(): Argument #2 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(38): array_merge(Array, '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:29:31 --> Undefined variable $oldcom
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 36)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:29:57 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(39): array_merge('{"COMMENTS":"{\\...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:30:57 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(41): array_merge('{"COMMENTS":"{\\...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:31:16 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(40): array_merge('{"connID":{"aff...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:31:38 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(41): array_merge('{"COMMENTS":"{\\...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:34:53 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(41): array_merge('{"COMMENTS":"{\\...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:35:45 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(41): array_merge('{"COMMENTS":"{\\...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:38:40 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-14 03:39:14 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(41): array_merge('{"COMMENTS":"{\\...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:47:56 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(41): array_merge('{"COMMENTS":"{\\...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:49:58 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(41): array_merge('{"COMMENTS":"{\\...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:50:24 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(41): array_merge('{"COMMENTS":"{\\...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(141): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:50:46 --> array_merge(): Argument #1 must be of type array, string given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(41): array_merge('{"COMMENTS":"{\\...', '{"first_name":"...')
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:51:38 --> Undefined variable $oldcom
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:52:49 --> Undefined variable $oldcom
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:54:16 --> Undefined variable $oldcom
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:54:55 --> Undefined variable $oldcom
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:56:06 --> Undefined variable $oldcom
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 03:56:28 --> Undefined variable $oldcom
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', '{"first_name":"...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 04:01:50 --> Array to string conversion
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(142): App\Models\CommentModel->insert_comment('8', Array)
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 04:14:16 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-14 04:21:33 --> CONSTRAINT `projects.COMMENTS` failed for `fah_portal`.`projects`
+CRITICAL - 2021-12-14 04:39:35 --> Undefined variable $UID
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(124): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 124)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-14 04:40:07 --> Undefined variable $result
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(126): App\Models\CommentModel->getComment('7')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 04:42:23 --> json_decode(): Argument #1 ($json) must be of type string, array given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(60): json_decode(Array)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(126): App\Models\CommentModel->getComment('7')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 04:42:34 --> json_decode(): Argument #1 ($json) must be of type string, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(59): json_decode(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(126): App\Models\CommentModel->getComment('7')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-14 04:45:28 --> Call to undefined function App\Models\length()
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(126): App\Models\CommentModel->getComment('7')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-14 06:22:34 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(7): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\FAH\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\FAH\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Admin')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Admin')
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-14 06:23:14 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(7): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\FAH\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\FAH\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Admin')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Admin')
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-14 06:23:15 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(7): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\FAH\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\FAH\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Admin')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Admin')
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-14 06:23:16 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(7): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\FAH\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\FAH\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Admin')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Admin')
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-14 06:23:16 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(7): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\FAH\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\FAH\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Admin')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Admin')
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-14 06:23:16 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(7): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\FAH\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\FAH\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Admin')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Admin')
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

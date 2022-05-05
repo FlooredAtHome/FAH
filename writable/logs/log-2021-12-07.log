@@ -1,0 +1,273 @@
+CRITICAL - 2021-12-07 22:08:00 --> Call to undefined function App\Controllers\user_home()
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 22:08:06 --> Call to undefined function App\Controllers\user_home()
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 22:08:17 --> Call to undefined function App\Controllers\user_home()
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 22:08:24 --> Call to undefined function App\Controllers\user_home()
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 22:09:33 --> syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/verify')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/verify')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 22:37:07 --> Call to undefined function App\Controllers\user_home()
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 22:37:45 --> Call to undefined function App\Controllers\user_home()
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 22:44:21 --> syntax error, unexpected ';', expecting ']'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 22:46:26 --> syntax error, unexpected ''Login/Logout'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Login.php(133): view('templates/heade...')
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->user_home()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 22:46:57 --> syntax error, unexpected ''Login/Logout'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('templates/heade...', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Login.php(133): view('templates/heade...')
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->user_home()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-07 22:49:46 --> Call to a member function destroy() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->logout()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 22:51:48 --> Call to a member function destroy() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->logout()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 22:52:38 --> Call to a member function destroy() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->logout()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 22:52:42 --> Call to a member function destroy() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->logout()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 22:53:12 --> Call to a member function destroy() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->logout()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 22:54:06 --> Call to a member function remove() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->logout()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 22:56:18 --> syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 22:56:19 --> syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 22:56:27 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-07 23:07:29 --> syntax error, unexpected ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/logout')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/logout')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 23:07:30 --> syntax error, unexpected ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 23:10:02 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:10:28 --> syntax error, unexpected ',', expecting ']'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/verify')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/verify')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 23:10:51 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:11:32 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:14:59 --> Cannot redeclare App\Controllers\Login::$session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-07 23:15:11 --> Constant expression contains invalid operations
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-07 23:15:19 --> syntax error, unexpected '$session' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/verify')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/verify')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 23:15:32 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:15:41 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:17:19 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:17:27 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:17:50 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:18:08 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:18:22 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:18:40 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:19:10 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:22:05 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:22:25 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:23:02 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:25:12 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Login.php(52): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-07 23:26:01 --> Call to undefined method CodeIgniter\Session\Session::unset()
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->logout()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:33:08 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->user_home()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-07 23:54:40 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-07 23:55:36 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->user_home()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

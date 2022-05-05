@@ -1,0 +1,455 @@
+CRITICAL - 2021-12-02 02:42:39 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 02:44:42 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 02:44:43 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 02:44:43 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 02:44:43 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 02:44:43 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 02:44:43 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 02:44:44 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 02:44:44 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 02:46:24 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 02:46:25 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 02:46:25 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-02 02:46:31 --> Invalid file: Home/login.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/login.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Home/login', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Home.php(11): view('Home/login')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2021-12-02 03:24:42 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-02 03:24:42 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\FAH\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\FAH\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\FAH\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\FAH\app\Controllers\Login.php(22): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-02 03:32:08 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-02 03:32:08 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\FAH\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\FAH\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\FAH\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\FAH\app\Controllers\Login.php(22): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-02 03:32:25 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-02 03:32:25 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\FAH\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\FAH\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\FAH\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\FAH\app\Controllers\Login.php(22): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-02 04:09:52 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-02 04:09:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\FAH\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\FAH\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\FAH\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\FAH\app\Controllers\Login.php(22): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-02 04:09:57 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-02 04:09:57 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\FAH\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\FAH\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\FAH\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\FAH\app\Controllers\Login.php(22): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-02 04:15:54 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-02 04:15:54 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\FAH\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\FAH\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\FAH\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\FAH\app\Controllers\Login.php(22): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-02 04:17:23 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-02 04:17:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\FAH\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\FAH\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\FAH\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\FAH\app\Controllers\Login.php(22): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-02 04:21:06 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-02 04:21:06 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\FAH\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\FAH\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\FAH\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\FAH\app\Controllers\Login.php(22): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-02 04:36:38 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 04:43:07 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 04:43:32 --> Attempt to read property "password" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 05:28:04 --> Undefined array key "password"
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 05:29:06 --> Undefined array key "password"
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 05:47:21 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 06:13:20 --> Class "app\Models\UserModel" not found
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 06:15:06 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 06:15:46 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 06:22:38 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 06:29:00 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 06:44:46 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 06:46:15 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 06:47:14 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 06:50:31 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 06:57:18 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 06:59:15 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(19): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-02 07:00:44 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 07:02:33 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 07:09:46 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 07:11:39 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 07:14:54 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 07:15:23 --> Attempt to read property "password_hash" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 22:26:29 --> Class "App\Controllers\Controller" not found
+#0 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-02 22:26:49 --> Call to a member function password_hash() on array
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 22:51:05 --> Call to undefined function App\Controllers\where()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-02 22:55:43 --> Call to undefined method App\Models\UserModel::second
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(27): CodeIgniter\Model->__call('second', Array)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 22:59:21 --> Undefined variable $userp
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 22:59:57 --> Undefined variable $userp
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 23:00:25 --> Undefined variable $hased_password
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 23:03:20 --> Undefined variable $userp
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 23:04:07 --> Undefined variable $userE
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 39)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-02 23:50:38 --> var_dump() expects at least 1 argument, 0 given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(38): var_dump()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

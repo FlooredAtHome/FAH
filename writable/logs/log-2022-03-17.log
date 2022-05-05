@@ -1,0 +1,84 @@
+CRITICAL - 2022-03-17 01:51:39 --> Undefined variable $email
+#0 C:\xampp\htdocs\FAH\app\Views\home\user_home.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/user_home', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(175): view('home/user_home', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-17 02:24:25 --> file_get_contents(https://fahbacksym.com/FAH/get_token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 165)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(165): file_get_contents('https://fahback...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 04:22:14 --> file_get_contents(https://fahbacksym.com/FAH/get_token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 165)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(165): file_get_contents('https://fahback...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 07:19:15 --> file_get_contents(https://fahbacksym.com/FAH/get_token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 165)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(165): file_get_contents('https://fahback...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-17 07:23:34 --> Undefined array key 0
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 07:24:07 --> Undefined array key 0
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 169)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 07:44:11 --> Undefined variable $i
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 07:44:37 --> Undefined variable $i
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 07:44:53 --> Undefined array key "Ready_To_Send"
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 07:46:38 --> Undefined array key "id"
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(174): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 174)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-17 07:46:56 --> Undefined array key "Ready_To_Send"
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 172)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

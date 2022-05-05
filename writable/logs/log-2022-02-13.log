@@ -1,0 +1,90 @@
+CRITICAL - 2022-02-13 23:10:22 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(180): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-13 23:19:13 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(180): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-13 23:19:29 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(180): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-13 23:22:50 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(180): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-13 23:26:08 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(180): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-13 23:27:20 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(180): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-13 23:31:44 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(180): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-13 23:33:00 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(180): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-13 23:36:40 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(180): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

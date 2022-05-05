@@ -1,0 +1,160 @@
+CRITICAL - 2021-12-13 00:08:33 --> Undefined variable $config
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 00:08:34 --> Undefined variable $config
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 00:08:34 --> Undefined variable $config
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 00:08:35 --> Undefined variable $config
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 00:08:35 --> Undefined variable $config
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 00:08:35 --> Undefined variable $config
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 00:08:35 --> Undefined variable $config
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 00:09:39 --> Undefined variable $config
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 00:10:00 --> Undefined variable $config
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\UserHome->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 00:10:27 --> Undefined variable $currenttemp
+#0 C:\xampp\htdocs\FAH\app\Views\home\user_home.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 98)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/user_home', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(121): view('home/user_home')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 00:11:25 --> Undefined variable $atum
+#0 C:\xampp\htdocs\FAH\app\Views\home\user_home.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/user_home', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(121): view('home/user_home')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 00:13:50 --> Undefined variable $uuemail
+#0 C:\xampp\htdocs\FAH\app\Controllers\Reset.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Reset->index()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 06:14:34 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\Comments.php(7): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\FAH\system\Router\Router.php(519): include_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\FAH\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Comments/commen...')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Comments/commen...')
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-13 06:15:20 --> Undefined constant "App\Controllers\echasd"
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-13 06:20:33 --> Undefined variable $userdata
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 06:21:20 --> Undefined variable $EMAIL
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(128): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 128)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-13 06:37:15 --> Undefined variable $UID
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(137): App\Models\CommentModel->insertComment('7', 'asdasd')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-13 06:37:57 --> Unknown column 'COMMENT' in 'field list'
+ERROR - 2021-12-13 06:38:45 --> Unknown column 'COMMENT' in 'field list'
+ERROR - 2021-12-13 06:38:58 --> Unknown column 'COMMENT' in 'field list'
+ERROR - 2021-12-13 06:39:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENT='asdasd'' at line 1
+ERROR - 2021-12-13 06:40:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdasd'' at line 1
+ERROR - 2021-12-13 06:40:02 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdasd'' at line 1
+ERROR - 2021-12-13 06:40:05 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdasd'' at line 1
+ERROR - 2021-12-13 06:40:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asda'' at line 1
+ERROR - 2021-12-13 06:41:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdas'' at line 1
+ERROR - 2021-12-13 06:41:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7'' at line 1
+ERROR - 2021-12-13 06:42:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdasd'' at line 1
+ERROR - 2021-12-13 06:42:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdasd'' at line 1
+ERROR - 2021-12-13 06:53:18 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdas'' at line 1
+ERROR - 2021-12-13 07:11:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdasd'' at line 1
+ERROR - 2021-12-13 07:11:29 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdasd'' at line 1
+ERROR - 2021-12-13 07:11:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdasd'' at line 1
+ERROR - 2021-12-13 07:11:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdasd'' at line 1
+ERROR - 2021-12-13 07:11:30 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdasd'' at line 1
+ERROR - 2021-12-13 07:11:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdasd'' at line 1
+ERROR - 2021-12-13 07:11:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS='asdasd'' at line 1
+ERROR - 2021-12-13 22:14:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS=''' at line 1
+ERROR - 2021-12-13 23:36:01 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'UID='7', COMMENTS=''' at line 1
+CRITICAL - 2021-12-13 23:46:45 --> Undefined array key "FISRT_NAME"
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(134): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 134)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,249 @@
+CRITICAL - 2021-12-16 01:31:48 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 01:32:29 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 01:32:30 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 01:32:30 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 01:32:30 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 01:32:30 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 02:09:44 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 02:11:03 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 02:17:47 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 02:19:41 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 02:19:41 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 02:19:42 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 02:19:42 --> Undefined constant "CodeIgniter\Database\MySQLi\MYSQLI_STORE_RESULT"
+#0 C:\xampp\htdocs\FAH\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('MySQLi', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\FAH\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\FAH\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\FAH\app\Controllers\Login.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-16 02:52:11 --> Undefined array key 1
+#0 C:\xampp\htdocs\FAH\system\Router\Router.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 430)
+#1 C:\xampp\htdocs\FAH\system\Router\Router.php(155): CodeIgniter\Router\Router->checkRoutes('api/demo')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/demo')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-16 02:52:12 --> Undefined array key 1
+#0 C:\xampp\htdocs\FAH\system\Router\Router.php(430): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 430)
+#1 C:\xampp\htdocs\FAH\system\Router\Router.php(155): CodeIgniter\Router\Router->checkRoutes('api/demo')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('api/demo')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-16 04:04:19 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\FAH\app\Controllers\api\demo.php(5): require()
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-16 04:04:19 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\FAH\app\Controllers\api\demo.php(5): require()
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-16 04:05:07 --> Class "chriskacerguis\RestServer\Controller" not found
+#0 C:\xampp\htdocs\FAH\app\Controllers\api\demo.php(5): require()
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-16 04:22:23 --> Class "Config\Cors" not found
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('FahAPI', 'before')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-16 04:22:32 --> Class "Config\Cors" not found
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('FahAPI', 'before')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-16 04:24:02 --> Class "Config\Cors" not found
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('FahAPI', 'before')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-16 04:24:26 --> Class "Config\Cors" not found
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('FahAPI', 'before')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-16 04:24:41 --> Class "Config\Cors" not found
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(384): CodeIgniter\Filters\Filters->run('FahAPI', 'before')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#2 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#3 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-12-16 22:43:31 --> Object of class CodeIgniter\Router\RouteCollection could not be converted to string
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(705): require()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-16 23:34:12 --> Trait "App\Controllers\ResponseTrait" not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-16 23:35:09 --> Trait "App\Controllers\ResponseTraits" not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-16 23:46:10 --> Trait "App\Controllers\ResponseTraits" not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-16 23:46:36 --> Trait "App\Controllers\ResponseTrait" not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-16 23:49:44 --> Trait "App\Controllers\CodeIgniter\API\ResponseTrait" not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}

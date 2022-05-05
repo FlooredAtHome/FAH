@@ -1,0 +1,110 @@
+CRITICAL - 2022-04-05 01:56:39 --> count(): Argument #1 ($value) must be of type Countable|array, string given
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(276): count('"{\\"tasks\\":[{\\...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 01:57:01 --> count(): Argument #1 ($value) must be of type Countable|array, stdClass given
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(276): count(Object(stdClass))
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-05 02:14:11 --> Undefined array key 0
+#0 C:\xampp\htdocs\FAH\app\Views\home\vendor_home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/vendor_hom...', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(305): view('home/vendor_hom...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 02:14:47 --> Undefined array key 0
+#0 C:\xampp\htdocs\FAH\app\Views\home\vendor_home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/vendor_hom...', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(305): view('home/vendor_hom...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 02:16:45 --> Undefined array key 0
+#0 C:\xampp\htdocs\FAH\app\Views\home\vendor_home.php(105): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 105)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/vendor_hom...', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(305): view('home/vendor_hom...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 02:18:25 --> Undefined array key "UID"
+#0 C:\xampp\htdocs\FAH\app\Views\home\vendor_home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/vendor_hom...', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(305): view('home/vendor_hom...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 02:19:02 --> Undefined array key "id"
+#0 C:\xampp\htdocs\FAH\app\Views\home\vendor_home.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/vendor_hom...', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(305): view('home/vendor_hom...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 02:21:24 --> Undefined array key "Name"
+#0 C:\xampp\htdocs\FAH\app\Views\home\vendor_home.php(118): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 118)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/vendor_hom...', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(305): view('home/vendor_hom...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 04:36:29 --> Undefined array key "Products"
+#0 C:\xampp\htdocs\FAH\app\Views\home\vendor_home.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/vendor_hom...', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(306): view('home/vendor_hom...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 04:36:35 --> Undefined array key "Products"
+#0 C:\xampp\htdocs\FAH\app\Views\home\vendor_home.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 145)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/vendor_hom...', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(306): view('home/vendor_hom...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-05 04:57:00 --> file_get_contents(https://fahbacksym.com/FAH/get_token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9): Failed to open stream: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 259)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(259): file_get_contents('https://fahback...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

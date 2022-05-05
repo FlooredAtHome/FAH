@@ -1,0 +1,46 @@
+CRITICAL - 2022-01-20 22:25:38 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(154): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-01-20 22:25:39 --> You must set the database table to be used with your query.
+#0 C:\xampp\htdocs\FAH\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\xampp\htdocs\FAH\system\Model.php(688): CodeIgniter\Model->builder()
+#2 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(46): CodeIgniter\Model->__get('comments')
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(154): App\Models\CommentModel->add_comment(Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->add_comment()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-01-20 22:42:09 --> Table 'fah_portal.proplogs' doesn't exist
+CRITICAL - 2022-01-20 22:42:09 --> Table 'fah_portal.proplogs' doesn't exist
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `STRINGT...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `STRINGT...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `STRINGT...')
+#3 C:\xampp\htdocs\FAH\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `STRINGT...', Array, false)
+#4 C:\xampp\htdocs\FAH\app\Models\TimingModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(272): App\Models\TimingModel->displayall(61)
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-01-20 22:42:29 --> Table 'fah_portal.proplogs' doesn't exist
+CRITICAL - 2022-01-20 22:42:29 --> Table 'fah_portal.proplogs' doesn't exist
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `STRINGT...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `STRINGT...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `STRINGT...')
+#3 C:\xampp\htdocs\FAH\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `STRINGT...', Array, false)
+#4 C:\xampp\htdocs\FAH\app\Models\TimingModel.php(31): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(272): App\Models\TimingModel->displayall(60)
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#8 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

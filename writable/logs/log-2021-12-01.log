@@ -1,0 +1,240 @@
+CRITICAL - 2021-12-01 01:41:10 --> Invalid file: auth/register.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/register.p...')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('auth/register', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(23): view('auth/register', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 01:43:28 --> Invalid file: Home/index.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/index.php')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('Home/index', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(23): view('Home/index', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 01:53:13 --> Invalid file: Home/index.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/index.php')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('Home/index', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(23): view('Home/index', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 01:54:41 --> Invalid file: login.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(23): view('login', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 01:55:29 --> Invalid file: login.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('login.php', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(23): view('login.php', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 01:56:52 --> Invalid file: .php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(23): view('', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 01:59:24 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 01:59:25 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 01:59:28 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 01:59:29 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 01:59:29 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 01:59:29 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 01:59:30 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 01:59:30 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 01:59:30 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 01:59:30 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 01:59:30 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 01:59:30 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 01:59:31 --> CodeIgniter\Validation\Validation::withRequest(): Argument #1 ($request) must be of type CodeIgniter\HTTP\RequestInterface, null given, called in C:\xampp\htdocs\codeigniter4\system\Controller.php on line 160
+#0 C:\xampp\htdocs\codeigniter4\system\Controller.php(160): CodeIgniter\Validation\Validation->withRequest(NULL)
+#1 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(10): CodeIgniter\Controller->validate(Array)
+#2 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(801): App\Controllers\Home->__construct()
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-01 02:05:58 --> Invalid file: .php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('.php')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(25): view('', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 02:08:22 --> Invalid file: /login.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/login.php')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('/login', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(25): view('/login', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 02:09:05 --> Invalid file: public/views/login.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('public/views/lo...')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('public/views/lo...', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(25): view('public/views/lo...', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 02:09:24 --> Invalid file: views/login.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('views/login.php')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('views/login', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(25): view('views/login', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 02:09:41 --> Invalid file: Views/login.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Views/login.php')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('Views/login', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(25): view('Views/login', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 02:10:08 --> Invalid file: ../Views/login.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Views/login....')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('../Views/login', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(25): view('../Views/login', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 02:10:52 --> Invalid file: ../login.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../login.php')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('../login', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(25): view('../login', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 02:13:27 --> Invalid file: Home/index.php
+#0 C:\xampp\htdocs\codeigniter4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Home/index.php')
+#1 C:\xampp\htdocs\codeigniter4\system\Common.php(1097): CodeIgniter\View\View->render('Home/index', Array, true)
+#2 C:\xampp\htdocs\codeigniter4\app\Controllers\Home.php(25): view('Home/index', Array)
+#3 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(824): App\Controllers\Home->Save()
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-01 02:27:35 --> Class "App\Controllers\Controller" not found
+#0 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\codeigniter4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

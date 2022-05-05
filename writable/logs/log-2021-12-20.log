@@ -1,0 +1,466 @@
+CRITICAL - 2021-12-20 00:24:27 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\FahAPI->create()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FahAPI))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-20 00:26:07 --> Call to a member function getValue() on null
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\FahAPI->create()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FahAPI))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2021-12-20 01:52:45 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/user_home', Array, true)
+#3 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(183): view('home/user_home')
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-20 02:00:09 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/user_home', Array, true)
+#3 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(196): view('home/user_home')
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-20 02:02:05 --> Undefined variable $time
+#0 C:\xampp\htdocs\FAH\app\Views\home\user_home.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 246)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/user_home', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(196): view('home/user_home', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 02:02:09 --> Undefined variable $time
+#0 C:\xampp\htdocs\FAH\app\Views\home\user_home.php(246): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 246)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/user_home', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(196): view('home/user_home', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 02:03:02 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(189): App\Models\CommentModel->getComment('20')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:03:34 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(189): App\Models\CommentModel->getComment('20')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:04:01 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(130): App\Models\CommentModel->getComment('20')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:05:58 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(130): App\Models\CommentModel->getComment('20')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:06:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(130): App\Models\CommentModel->getComment('20')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:07:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(130): App\Models\CommentModel->getComment('20')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:07:46 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(130): App\Models\CommentModel->getComment('20')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:10:26 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(130): App\Models\CommentModel->getComment('20')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:10:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(130): App\Models\CommentModel->getComment('20')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:11:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::results()
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(130): App\Models\CommentModel->getComment('20')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:11:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::results()
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(130): App\Models\CommentModel->getComment('20')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:11:43 --> Undefined array key "COMMENTS"
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(130): App\Models\CommentModel->getComment('20')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:11:55 --> Array to string conversion
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(130): App\Models\CommentModel->getComment('20')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:12:15 --> Undefined array key "COMMENTS"
+#0 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 62)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(130): App\Models\CommentModel->getComment('20')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-20 02:15:02 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(190): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:15:30 --> count(): Argument #1 ($value) must be of type Countable|array, bool given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(190): count(false)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:16:03 --> count(): Argument #1 ($value) must be of type Countable|array, bool given
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(131): count(false)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:16:16 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(131): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:16:18 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(131): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:50:14 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(131): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:52:07 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(131): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:52:08 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(131): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:52:09 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(131): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:52:09 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(131): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:54:19 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(131): count(NULL)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 02:54:40 --> Undefined variable $name
+#0 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(137): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 137)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->user_home()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-20 05:31:59 --> CONSTRAINT `projects.COMMENTS` failed for `fah_portal`.`projects`
+CRITICAL - 2021-12-20 05:31:59 --> CONSTRAINT `projects.COMMENTS` failed for `fah_portal`.`projects`
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE projects...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE projects...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE projects...')
+#3 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(43): CodeIgniter\Database\BaseConnection->query('UPDATE projects...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(158): App\Models\CommentModel->insert_comment('20', '[{"who":"Ram La...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->comment()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 05:32:58 --> Undefined variable $name
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 05:52:08 --> Undefined property: CodeIgniter\View\View::$session
+#0 C:\xampp\htdocs\FAH\app\Views\Admin\customerView.php(232): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 232)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Admin/customerV...', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(199): view('Admin/customerV...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 06:10:07 --> Undefined property: CodeIgniter\View\View::$request
+#0 C:\xampp\htdocs\FAH\app\Views\Admin\customerView.php(233): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 233)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Admin/customerV...', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(198): view('Admin/customerV...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 06:13:55 --> Undefined variable $values
+#0 C:\xampp\htdocs\FAH\app\Views\Admin\customerView.php(235): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 235)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Admin/customerV...', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(198): view('Admin/customerV...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-20 22:51:08 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+CRITICAL - 2021-12-20 22:51:08 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO pro...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(22): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(215): App\Models\CommentModel->insert_comment('', '[{"who":"Admin ...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-20 22:55:33 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+CRITICAL - 2021-12-20 22:55:33 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO pro...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(22): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(216): App\Models\CommentModel->insert_comment('', '[{"who":"Admin ...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 23:04:00 --> Undefined variable $userid
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 191)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-20 23:04:31 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+CRITICAL - 2021-12-20 23:04:31 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO pro...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(22): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(219): App\Models\CommentModel->insert_comment('', '[{"who":"Admin ...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 23:04:50 --> base_url(): Argument #2 ($scheme) must be of type ?string, array given, called in C:\xampp\htdocs\FAH\app\Controllers\Admin.php on line 222
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(222): base_url('FAH/Admin/custo...', Array)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 23:05:29 --> base_url(): Argument #2 ($scheme) must be of type ?string, array given, called in C:\xampp\htdocs\FAH\app\Controllers\Admin.php on line 222
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(222): base_url('FAH/Admin/custo...', Array)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 23:06:57 --> Unsupported operand types: string + string
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-20 23:22:32 --> Undefined variable $userid
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 195)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 23:23:34 --> Undefined variable $userid
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(206): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 206)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 23:24:14 --> Undefined variable $userid
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 207)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-20 23:28:05 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+CRITICAL - 2021-12-20 23:28:05 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO pro...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(22): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(223): App\Models\CommentModel->insert_comment('0', '[{"who":"Admin ...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-20 23:33:19 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+CRITICAL - 2021-12-20 23:33:19 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO pro...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(22): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(223): App\Models\CommentModel->insert_comment('0', '[{"who":"Admin ...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-20 23:33:42 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+CRITICAL - 2021-12-20 23:33:42 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO pro...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(22): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(224): App\Models\CommentModel->insert_comment('0', '[{"who":"Admin ...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-20 23:33:47 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+CRITICAL - 2021-12-20 23:33:47 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO pro...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(22): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(224): App\Models\CommentModel->insert_comment('0', '[{"who":"Admin ...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-20 23:33:57 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+CRITICAL - 2021-12-20 23:33:57 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`projects`, CONSTRAINT `UID` FOREIGN KEY (`UID`) REFERENCES `users` (`UID`))
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO pro...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO pro...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO pro...')
+#3 C:\xampp\htdocs\FAH\app\Models\CommentModel.php(22): CodeIgniter\Database\BaseConnection->query('INSERT INTO pro...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(224): App\Models\CommentModel->insert_comment('0', '[{"who":"Admin ...', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->Comment()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-20 23:39:47 --> Undefined variable $userid
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(200): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 200)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 23:40:11 --> Undefined variable $userid
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(199): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 199)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-20 23:53:45 --> Undefined variable $userid
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(211): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 211)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

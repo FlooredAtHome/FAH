@@ -1,0 +1,990 @@
+CRITICAL - 2021-12-10 02:26:18 --> syntax error, unexpected '}'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 04:59:51 --> syntax error, unexpected ')'
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(15): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-10 05:01:27 --> syntax error, unexpected ')'
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(15): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-10 05:01:30 --> syntax error, unexpected ')'
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(15): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-10 05:01:31 --> syntax error, unexpected ')'
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(15): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-10 05:01:31 --> syntax error, unexpected ')'
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(15): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-10 05:01:39 --> Call to a member function get() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:02:19 --> Call to a member function get() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:03:42 --> Call to a member function get() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:05:31 --> Call to a member function segment() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:09:25 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:11:15 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:11:43 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:12:15 --> Request URI segment is out of range: 1
+#0 /opt/lampp/htdocs/FAH/system/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(18): CodeIgniter\HTTP\URI->getSegment(1)
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 05:12:25 --> syntax error, unexpected '$this' (T_VARIABLE)
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:12:34 --> Request URI segment is out of range: 1
+#0 /opt/lampp/htdocs/FAH/system/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(18): CodeIgniter\HTTP\URI->getSegment(1)
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 05:13:46 --> Request URI segment is out of range: 1
+#0 /opt/lampp/htdocs/FAH/system/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(18): CodeIgniter\HTTP\URI->getSegment(1)
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 05:13:48 --> Request URI segment is out of range: 1
+#0 /opt/lampp/htdocs/FAH/system/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(18): CodeIgniter\HTTP\URI->getSegment(1)
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 05:13:55 --> Request URI segment is out of range: 1
+#0 /opt/lampp/htdocs/FAH/system/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(18): CodeIgniter\HTTP\URI->getSegment(1)
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 05:14:03 --> Request URI segment is out of range: 1
+#0 /opt/lampp/htdocs/FAH/system/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(18): CodeIgniter\HTTP\URI->getSegment(1)
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 05:14:10 --> Request URI segment is out of range: 1
+#0 /opt/lampp/htdocs/FAH/system/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(18): CodeIgniter\HTTP\URI->getSegment(1)
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 05:14:35 --> Request URI segment is out of range: 1
+#0 /opt/lampp/htdocs/FAH/system/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(1)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(18): CodeIgniter\HTTP\URI->getSegment(1)
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 05:17:17 --> Call to a member function table() on null
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(20): App\Models\LoginModel->pwd_change_verify('index.php', 'Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:17:54 --> Call to a member function table() on null
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(20): App\Models\LoginModel->pwd_change_verify('index.php', 'Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:17:58 --> Call to a member function table() on null
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(20): App\Models\LoginModel->pwd_change_verify('index.php', 'Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:18:43 --> Call to undefined method CodeIgniter\HTTP\URI::segment()
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:18:58 --> Argument 1 passed to CodeIgniter\HTTP\URI::getQuery() must be of the type array, int given, called in /opt/lampp/htdocs/FAH/app/Controllers/Reset.php on line 17
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(17): CodeIgniter\HTTP\URI->getQuery(1)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:21:22 --> Request URI segment is out of range: 12
+#0 /opt/lampp/htdocs/FAH/system/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(12)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(17): CodeIgniter\HTTP\URI->getSegment(12)
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 05:21:35 --> Request URI segment is out of range: 3
+#0 /opt/lampp/htdocs/FAH/system/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(18): CodeIgniter\HTTP\URI->getSegment(3)
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 05:21:40 --> Request URI segment is out of range: 3
+#0 /opt/lampp/htdocs/FAH/system/HTTP/URI.php(529): CodeIgniter\HTTP\Exceptions\HTTPException::forURISegmentOutOfRange(3)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(18): CodeIgniter\HTTP\URI->getSegment(3)
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 05:26:26 --> syntax error, unexpected 'helper' (T_STRING)
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:26:32 --> Call to a member function get() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:26:45 --> Call to a member function get() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:28:48 --> syntax error, unexpected 'helper' (T_STRING)
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:29:16 --> Illegal string offset 'email'
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/opt/lampp/htdo...', 21, Array)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:35:21 --> Call to a member function get() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:35:34 --> Call to a member function getPost() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:36:06 --> Call to a member function getPost() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:36:08 --> Call to a member function getPost() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:36:08 --> Call to a member function getPost() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:36:08 --> Call to a member function getPost() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:36:08 --> Call to a member function getPost() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:36:08 --> Call to a member function getPost() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:36:09 --> Call to a member function getPost() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:39:10 --> Use of undefined constant var_dump - assumed 'var_dump' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/opt/lampp/htdo...', 20, Array)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:39:51 --> Use of undefined constant value - assumed 'value' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/opt/lampp/htdo...', 20, Array)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:45:44 --> Cannot redeclare App\Controllers\Reset::__construct()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-10 05:46:29 --> Too few arguments to function App\Controllers\Reset::__construct(), 0 passed in /opt/lampp/htdocs/FAH/system/CodeIgniter.php on line 801 and exactly 1 expected
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 05:49:40 --> Call to a member function table() on null
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('abc@gmail.com', NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:50:09 --> Call to a member function table() on null
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('abc@gmail.com', NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:50:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('abc@gmail.com', NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:53:35 --> Argument 2 passed to view() must be of the type array, null given, called in /opt/lampp/htdocs/FAH/app/Controllers/Reset.php on line 24
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): view('http://localhos...', NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:54:40 --> Argument 2 passed to view() must be of the type array, null given, called in /opt/lampp/htdocs/FAH/app/Controllers/Reset.php on line 24
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): view('http://localhos...', NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:54:45 --> Argument 2 passed to view() must be of the type array, bool given, called in /opt/lampp/htdocs/FAH/app/Controllers/Reset.php on line 24
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): view('http://localhos...', true)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:55:05 --> Invalid file: 1://localhost/Login/change_pwd.php
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('1://localhost/L...')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('1://localhost/L...', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): view('1://localhost/L...')
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 05:56:04 --> syntax error, unexpected ')', expecting ',' or ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:56:30 --> Argument 2 passed to view() must be of the type array, null given, called in /opt/lampp/htdocs/FAH/app/Controllers/Reset.php on line 24
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): view('http://localhos...', NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 05:59:15 --> Invalid file: http://localhost/Login/change_pwd.php
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhos...')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('http://localhos...', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): view('http://localhos...', Array)
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 05:59:22 --> Invalid file: http://localhost/Login/change_pwd.php
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhos...')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('http://localhos...', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): view('http://localhos...', Array)
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 05:59:23 --> Invalid file: http://localhost/Login/change_pwd.php
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhos...')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('http://localhos...', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): view('http://localhos...', Array)
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 05:59:24 --> Invalid file: http://localhost/Login/change_pwd.php
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhos...')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('http://localhos...', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): view('http://localhos...', Array)
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 05:59:24 --> Invalid file: http://localhost/Login/change_pwd.php
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhos...')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('http://localhos...', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): view('http://localhos...', Array)
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 06:00:49 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /opt/lampp/htdocs/FAH/app/Models/LoginModel.php(51): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/opt/lampp/htdo...', 51, Array)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('abc@gmail.com', NULL)
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 06:01:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('abc@gmail.com', NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:02:45 --> mysqli_num_rows() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_num_rows...', '/opt/lampp/htdo...', 51, Array)
+#1 /opt/lampp/htdocs/FAH/app/Models/LoginModel.php(51): mysqli_num_rows(Object(CodeIgniter\Database\MySQLi\Result))
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('abc@gmail.com', NULL)
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 06:03:13 --> Call to undefined function App\Models\mysql_fetch_row()
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('abc@gmail.com', NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:03:20 --> mysqli_fetch_row() expects parameter 1 to be mysqli_result, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_fetch_ro...', '/opt/lampp/htdo...', 51, Array)
+#1 /opt/lampp/htdocs/FAH/app/Models/LoginModel.php(51): mysqli_fetch_row(Object(CodeIgniter\Database\MySQLi\Result))
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('abc@gmail.com', NULL)
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 06:08:14 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /opt/lampp/htdocs/FAH/app/Models/LoginModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 06:08:27 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:08:42 --> Use of undefined constant var_dump - assumed 'var_dump' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/FAH/app/Models/LoginModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 06:08:43 --> Use of undefined constant var_dump - assumed 'var_dump' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/FAH/app/Models/LoginModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 06:08:55 --> Use of undefined constant print_r - assumed 'print_r' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/FAH/app/Models/LoginModel.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/opt/lampp/htdo...', 52, Array)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 06:12:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRowArray()
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:12:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:12:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-10 06:16:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com AND UID =' at line 1
+CRITICAL - 2021-12-10 06:16:14 --> Call to a member function getRowArray() on null
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-10 06:16:24 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com AND UID =' at line 1
+CRITICAL - 2021-12-10 06:16:24 --> Call to a member function getRowArray() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-10 06:16:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com AND UID =' at line 1
+CRITICAL - 2021-12-10 06:16:35 --> Call to a member function getRowArray() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-10 06:17:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com AND UID =' at line 1
+CRITICAL - 2021-12-10 06:17:00 --> Call to a member function getRowArray() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:17:45 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /opt/lampp/htdocs/FAH/app/Models/LoginModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/opt/lampp/htdo...', 49, Array)
+#1 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-10 06:18:16 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:18:28 --> syntax error, unexpected ']', expecting ',' or ';'
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(21): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-10 06:19:21 --> syntax error, unexpected ']', expecting ',' or ';'
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(21): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-10 06:21:42 --> syntax error, unexpected '$email' (T_VARIABLE), expecting ')'
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(21): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-10 06:21:58 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com AND UID =12' at line 1
+CRITICAL - 2021-12-10 06:21:58 --> Call to a member function getRowArray() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-10 06:22:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com AND UID =12' at line 1
+CRITICAL - 2021-12-10 06:22:09 --> Call to a member function getRowArray() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-10 06:22:14 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com AND UID =12' at line 1
+ERROR - 2021-12-10 06:23:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com AND UID =12' at line 1
+CRITICAL - 2021-12-10 06:23:20 --> Call to a member function getRowArray() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-10 06:23:33 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '@gmail.com AND UID =12' at line 1
+CRITICAL - 2021-12-10 06:23:33 --> Call to a member function getResultArray() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:27:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:28:21 --> Call to a member function num_rows() on array
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:28:34 --> Call to a member function affectedRows() on array
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:30:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify('admin@gmail.com', '12')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:31:10 --> syntax error, unexpected '{'
+#0 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/FAH/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Logi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Logi...')
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(21): spl_autoload_call('App\\Models\\Logi...')
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2021-12-10 06:51:49 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-12-10 06:51:49 --> Call to a member function getRow() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify(NULL, NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 06:59:41 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in /opt/lampp/htdocs/FAH/app/Controllers/Reset.php on line 24
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): CodeIgniter\HTTP\RedirectResponse->to('http://localhos...', Array)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:00:20 --> Argument 2 passed to CodeIgniter\HTTP\RedirectResponse::to() must be of the type int or null, array given, called in /opt/lampp/htdocs/FAH/app/Controllers/Reset.php on line 24
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): CodeIgniter\HTTP\RedirectResponse->to('Login/change_pw...', Array)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:05:08 --> Argument 2 passed to base_url() must be of the type string or null, array given, called in /opt/lampp/htdocs/FAH/app/Controllers/Reset.php on line 24
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): base_url('Reset/change_pw...', Array)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:06:19 --> syntax error, unexpected '!', expecting variable (T_VARIABLE) or '{' or '$'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-10 07:11:16 --> Unknown column '11$method' in 'where clause'
+CRITICAL - 2021-12-10 07:11:16 --> Call to a member function getRow() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(20): App\Models\LoginModel->pwd_change_verify('fahportal@gmail...', '11$method=POST')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-10 07:11:28 --> Unknown column '11$method' in 'where clause'
+CRITICAL - 2021-12-10 07:11:28 --> Call to a member function getRow() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(20): App\Models\LoginModel->pwd_change_verify('fahportal@gmail...', '11$method=POST')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:13:56 --> syntax error, unexpected '$request' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:14:16 --> Call to a member function getVar() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 07:14:22 --> syntax error, unexpected '$request' (T_VARIABLE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:18:28 --> syntax error, unexpected ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:19:02 --> syntax error, unexpected ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:19:32 --> syntax error, unexpected ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:19:45 --> syntax error, unexpected ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:20:00 --> Invalid file: http://localhost/Login/change_pwd.php
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhos...')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('http://localhos...', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(25): view('http://localhos...', Array)
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 07:23:33 --> Invalid file: Reset/change_pwd.php
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Reset/change_pw...')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('Reset/change_pw...', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(25): view('Reset/change_pw...', Array)
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 07:25:55 --> syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:26:00 --> Invalid file: Reset/header.php
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Reset/header.ph...')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('Reset/header', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(25): view('Reset/header')
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 07:26:28 --> Invalid file: ../Reset/header.php
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('../Reset/header...')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('../Reset/header', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(25): view('../Reset/header')
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 07:26:36 --> Invalid file: Reset/header.php
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Reset/header.ph...')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('Reset/header', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(25): view('Reset/header')
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 07:27:07 --> Invalid file: Reset/header.php
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Reset/header.ph...')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('Reset/header', Array, true)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(25): view('Reset/header')
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 07:31:51 --> Use of undefined constant refresh - assumed 'refresh' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/opt/lampp/htdo...', 25, Array)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-10 07:32:20 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-12-10 07:32:20 --> Call to a member function getRow() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(22): App\Models\LoginModel->pwd_change_verify(NULL, NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 07:40:18 -->  route cannot be found while reverse-routing.
+#0 /opt/lampp/htdocs/FAH/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 /opt/lampp/htdocs/FAH/system/Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): redirect('http://localhos...')
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(801): App\Controllers\Reset->__construct()
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-10 07:44:16 --> syntax error, unexpected '(', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 10:39:27 --> Call to a member function getVar() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Reset->index()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 10:39:47 --> Call to a member function getVar() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Reset->index()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 10:57:19 --> Call to a member function getVar() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Reset->index()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-10 10:57:42 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-12-10 10:57:42 --> Call to a member function getRow() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(26): App\Models\LoginModel->pwd_change_verify('vaghasia84@gmai...', NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Reset->index()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-10 10:58:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+ERROR - 2021-12-10 10:58:27 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-12-10 11:06:40 --> Call to a member function get() on null
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/FAH/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('reset/change_pw...', Array, true)
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(27): view('reset/change_pw...', Array)
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Reset->index()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-10 11:06:49 --> Call to a member function get() on null
+#0 /opt/lampp/htdocs/FAH/system/View/View.php(214): include()
+#1 /opt/lampp/htdocs/FAH/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('reset/change_pw...', Array, true)
+#3 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(27): view('reset/change_pw...', Array)
+#4 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Reset->index()
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2021-12-10 11:09:41 --> Illegal string offset 'uid'
+#0 /opt/lampp/htdocs/FAH/app/Views/reset/change_pwd.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', '/opt/lampp/htdo...', 4, Array)
+#1 /opt/lampp/htdocs/FAH/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/FAH/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('reset/change_pw...', Array, true)
+#4 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(28): view('reset/change_pw...', Array)
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Reset->index()
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2021-12-10 11:13:55 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '' at line 1
+CRITICAL - 2021-12-10 11:13:55 --> Call to a member function getRow() on bool
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(24): App\Models\LoginModel->pwd_change_verify('fahportal@gmail...', NULL)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Reset->index()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-10 11:25:07 --> Use of undefined constant hidden - assumed 'hidden' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/FAH/app/Views/reset/change_pwd.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/opt/lampp/htdo...', 3, Array)
+#1 /opt/lampp/htdocs/FAH/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/FAH/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('reset/change_pw...', Array, true)
+#4 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(29): view('reset/change_pw...', Array)
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Reset->index()
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-10 11:25:10 --> Use of undefined constant hidden - assumed 'hidden' (this will throw an Error in a future version of PHP)
+#0 /opt/lampp/htdocs/FAH/app/Views/reset/change_pwd.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', '/opt/lampp/htdo...', 3, Array)
+#1 /opt/lampp/htdocs/FAH/system/View/View.php(214): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/FAH/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/FAH/system/Common.php(1097): CodeIgniter\View\View->render('reset/change_pw...', Array, true)
+#4 /opt/lampp/htdocs/FAH/app/Controllers/Reset.php(29): view('reset/change_pw...', Array)
+#5 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Reset->index()
+#6 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#7 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-10 11:31:25 --> Call to a member function updatepass() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Reset->update_password()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-10 11:34:35 --> syntax error, unexpected 'else' (T_ELSE)
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Reset/update_pa...')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Reset/update_pa...')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

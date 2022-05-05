@@ -1,0 +1,572 @@
+CRITICAL - 2021-12-05 01:12:35 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 01:18:14 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 01:18:22 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 01:18:59 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-05 01:30:25 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 01:30:25 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 01:31:23 --> Call to undefined function App\Models\var_dumb()
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-05 01:31:38 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 01:31:38 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-05 01:32:04 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 01:32:04 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 01:32:27 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-05 01:38:04 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 01:38:04 --> Undefined variable $builder
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-05 01:39:36 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 01:39:36 --> Undefined variable $builder
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-05 01:40:12 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 01:40:12 --> Undefined variable $builder
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-05 01:40:34 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 01:40:34 --> Undefined variable $builder
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-05 01:41:00 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 01:41:00 --> Undefined variable $builder
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2021-12-05 01:42:00 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 01:42:00 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-05 01:43:12 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 01:43:12 --> Call to a member function num_rows() on bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-05 01:43:41 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 01:43:41 --> Call to a member function countAllResults() on bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-05 01:44:01 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 01:44:01 --> Call to a member function countAllResults() on bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 01:53:44 --> Undefined variable $query
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-05 01:55:39 --> Undefined variable $query
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-05 01:57:54 --> Undefined variable $query
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-05 01:58:25 --> Undefined variable $query
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-05 02:02:19 --> Undefined variable $query
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-05 02:02:38 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 02:03:42 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 02:10:55 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 02:56:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 02:56:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-05 02:59:24 --> Unknown column 'ID' in 'field list'
+CRITICAL - 2021-12-05 02:59:24 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:00:26 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:03:08 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:05:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row_array()
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:06:58 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:07:54 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:08:58 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:09:36 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:10:07 --> count(): Argument #1 ($value) must be of type Countable|array, CodeIgniter\Database\MySQLi\Result given
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(17): count(Object(CodeIgniter\Database\MySQLi\Result))
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-05 03:10:46 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:11:20 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:12:21 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(18): count(NULL)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-05 03:13:59 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(18): count(NULL)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('helloworld@gmai...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-05 03:14:21 --> Undefined variable $result
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-05 03:24:33 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(18): count(NULL)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-05 03:28:03 --> Call to a member function num_rows() on string
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(37): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:29:26 --> Call to a member function countAllResults() on string
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(37): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:31:48 --> Call to a member function countAllResults() on null
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(37): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:34:01 --> Call to a member function num_rows() on null
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(37): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:37:39 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(20): count(NULL)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(37): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-05 03:38:48 --> count(): Argument #1 ($value) must be of type Countable|array, null given
+#0 C:\xampp\htdocs\FAH\app\Models\LoginModel.php(22): count(NULL)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(37): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-05 03:43:42 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(37): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 03:44:25 --> Call to a member function getRowArray() on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(37): App\Models\LoginModel->verifyEmail('maheksavanidrea...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 05:02:42 --> Undefined constant "App\Models\this"
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(36): App\Models\LoginModel->verifyEmail('fahportal@gmail...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 05:03:26 --> Undefined constant "App\Models\this"
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(36): App\Models\LoginModel->verifyEmail('fahportal@gmail...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 05:03:54 --> Undefined constant "App\Models\this"
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(36): App\Models\LoginModel->verifyEmail('fahportal@gmail...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 05:03:59 --> Undefined constant "App\Models\this"
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(36): App\Models\LoginModel->verifyEmail('fahportal@gmail...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 05:04:23 --> Undefined constant "App\Models\this"
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(38): App\Models\LoginModel->verifyEmail('fahportal@gmail...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 05:06:54 --> Undefined constant "App\Models\this"
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('fahportal@gmail...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 05:11:09 --> Undefined constant "App\Models\this"
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('fahportal@gmail...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 05:11:24 --> Undefined constant "App\Models\this"
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(39): App\Models\LoginModel->verifyEmail('fahportal@gmail...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-05 07:32:36 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\ResetPassword.php(59): view('reset_password_...', Array)
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\ResetPassword->reset_password()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-05 07:33:05 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\ResetPassword.php(59): view('reset_password_...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\ResetPassword->reset_password()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-05 07:33:11 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\ResetPassword.php(59): view('reset_password_...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\ResetPassword->reset_password()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-05 07:33:56 --> Invalid file: user.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\ResetPassword.php(59): view('user')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\ResetPassword->reset_password()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-05 07:34:05 --> Invalid file: user.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('user.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('user', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\ResetPassword.php(59): view('user')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\ResetPassword->reset_password()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-05 07:35:34 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\ResetPassword.php(59): view('reset_password_...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\ResetPassword->reset_password()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-05 07:35:37 --> Invalid file: reset_password_view.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('reset_password_...')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('reset_password_...', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\ResetPassword.php(59): view('reset_password_...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\ResetPassword->reset_password()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ResetPassword))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-05 08:03:11 --> Invalid file: Login/reset_password_view.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Login/reset_pas...')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Login/reset_pas...', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Login.php(24): view('Login/reset_pas...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->reset_password_view()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-05 22:12:43 --> Invalid file: Login/reset_password_view.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Login/reset_pas...')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Login/reset_pas...', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Login.php(24): view('Login/reset_pas...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->reset_password_view()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-05 22:18:39 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::updated()
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(88): App\Models\LoginModel->updatedAt('7')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->reset_password()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-05 22:25:48 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:25:57 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:26:20 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:26:55 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:29:55 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:33:13 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:33:59 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:34:29 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:34:41 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:35:21 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:35:33 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:36:00 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:36:11 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:36:52 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:37:30 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:38:01 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:38:05 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:39:04 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:39:25 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:39:57 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:40:54 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:41:02 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 22:41:37 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 23:02:28 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 23:02:52 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 23:15:50 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+CRITICAL - 2021-12-05 23:42:54 --> Class "App\Controllers\PHPMailer" not found
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->reset_password()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-05 23:43:57 --> Undefined variable $mail
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->reset_password()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-05 23:44:09 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+ERROR - 2021-12-05 23:44:38 --> Email: sendWithMail throwed mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()

@@ -1,0 +1,136 @@
+CRITICAL - 2021-11-30 01:48:41 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 01:48:52 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 01:50:23 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 01:53:49 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 01:55:12 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 01:55:22 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 01:55:26 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 01:58:06 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 02:04:59 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 02:08:08 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 02:08:26 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 02:11:52 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 02:11:54 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 02:14:18 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 02:14:18 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 02:14:21 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 01:17:16 --> The framework needs the following extension(s) installed and loaded: curl, mbstring.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, mbstring')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 01:17:47 --> The framework needs the following extension(s) installed and loaded: curl, mbstring.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('curl, mbstring')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 01:17:47 --> Uncaught Error: Call to undefined function CodeIgniter\CLI\mb_strpos() in C:\xampp\htdocs\codeigniter4\system\CLI\CLI.php:758
+Stack trace:
+#0 C:\xampp\htdocs\codeigniter4\system\CLI\CLI.php(161): CodeIgniter\CLI\CLI::parseCommandLine()
+#1 C:\xampp\htdocs\codeigniter4\system\CLI\CLI.php(998): CodeIgniter\CLI\CLI::init()
+#2 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\codeigniter4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('CodeIgniter\\CLI...')
+#5 C:\xampp\htdocs\codeigniter4\app\Views\errors\cli\error_exception.php(6): CodeIgniter\Autoloader\Autoloader->loadClass('CodeIgniter\\CLI...')
+#6 C:\xampp\htdocs\codeigniter4\system\Debug\Exceptions.php(229): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\codeigniter4\system\Debug\Exceptions.php(232): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#8 C:\xampp\htdocs\codeigniter4\system\Debug\Exceptions.php(116): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\FrameworkException), 500)
+#9 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\FrameworkException))
+#10 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-11-30 02:19:17 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2021-11-30 02:19:18 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\codeigniter4\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\codeigniter4\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\codeigniter4\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}

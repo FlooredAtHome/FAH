@@ -1,0 +1,273 @@
+CRITICAL - 2021-12-03 00:25:51 --> Cannot call constructor
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 00:25:54 --> Cannot call constructor
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Login->__construct()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 00:26:09 --> Undefined property: App\Controllers\Login::$load
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 00:27:09 --> Undefined property: App\Controllers\Login::$load
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 00:28:02 --> Class "App\Controllers\CI_Controller" not found
+#0 C:\xampp\htdocs\FAH\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\FAH\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/verify')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/verify')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-03 00:28:17 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\FAH\system\Router\Router.php(519): include_once()
+#1 C:\xampp\htdocs\FAH\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/verify')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/verify')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-03 00:28:26 --> Undefined property: App\Controllers\Login::$load
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 17)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 01:18:30 --> Undefined property: App\Controllers\Login::$load
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 01:35:54 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, array given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(37): mysqli_query(Array, 'SELECT PASSWORD...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 01:36:08 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, array given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(37): mysqli_query(Array, 'SELECT PASSWORD...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 01:39:43 --> mysqli_query(): Argument #1 ($mysql) must be of type mysqli, array given
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(37): mysqli_query(Array, 'SELECT PASSWORD...')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 01:41:02 --> mysqli_connect(): (HY000/1049): Unknown database 'user'
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\app\Controllers\Login.php(16): mysqli_connect('localhost', 'root', '', 'user')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2021-12-03 03:05:45 --> Undefined property: App\Controllers\Login::$UserModel
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 03:06:07 --> Undefined property: App\Controllers\Login::$Model
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 03:06:32 --> Undefined property: App\Controllers\Login::$UserModel
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 03:06:47 --> Undefined property: App\Controllers\Login::$UserModel
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 03:07:53 --> Undefined property: App\Controllers\Login::$App
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 03:08:31 --> Undefined property: App\Controllers\Login::$app
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 03:08:45 --> Undefined property: App\Controllers\Login::$Models
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 24)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 03:13:26 --> Call to a member function password_hash() on array
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 03:15:14 --> Call to a member function password_hash() on array
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 03:16:32 --> Call to a member function password_hash() on array
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-03 03:57:07 --> Undefined variable $pass
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 03:57:16 --> Undefined variable $pass
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 04:14:02 --> Undefined variable $user
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2021-12-03 04:44:20 --> Table 'fah_portal.user' doesn't exist
+CRITICAL - 2021-12-03 04:44:20 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(18): App\Models\UserModel->getData()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 04:45:45 --> Class "App\Models\UserModel" not found
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2021-12-03 05:19:52 --> Error connecting to the database: Access denied for user '****'@'localhost' (using password: YES)
+CRITICAL - 2021-12-03 05:19:52 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+#0 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\FAH\app\Models\UsersModel.php(11): CodeIgniter\Database\BaseConnection->query('select EMAIL,PA...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\Login.php(18): App\Models\UsersModel->getData()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-03 05:35:58 --> Undefined variable $users
+#0 C:\xampp\htdocs\FAH\app\Views\print.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('print', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Login.php(19): view('print')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 05:36:29 --> Undefined variable $users
+#0 C:\xampp\htdocs\FAH\app\Views\print.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('print', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Login.php(19): view('print')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 05:36:39 --> Undefined variable $users
+#0 C:\xampp\htdocs\FAH\app\Views\print.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 7)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('print', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Login.php(19): view('print')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-12-03 05:52:17 --> Array to string conversion
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 19)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 05:53:47 --> Attempt to read property "EMAIL" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 05:55:45 --> Undefined variable $result
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 06:00:45 --> syntax error, unexpected token ")"
+#0 C:\xampp\htdocs\FAH\system\Router\Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/verify')
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/verify')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 06:01:01 --> Undefined variable $usermodel
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-03 06:07:20 --> Attempt to read property "EMAIL" on array
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->verify()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

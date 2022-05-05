@@ -1,0 +1,67 @@
+CRITICAL - 2021-12-22 01:13:12 --> Invalid file: FAH.php
+#0 C:\xampp\htdocs\FAH\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('FAH.php')
+#1 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('FAH', Array, true)
+#2 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(32): view('FAH')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->index()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2021-12-22 03:25:45 --> Cannot call constructor
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-22 03:46:48 --> Cannot call constructor
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-22 03:47:11 --> Undefined property: App\Controllers\Admin::$user
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Admin->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-22 03:47:26 --> Undefined property: App\Controllers\Admin::$email
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Admin->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-22 03:47:36 --> Undefined property: App\Controllers\Admin::$session
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Admin->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-22 03:47:59 --> Undefined property: App\Controllers\Admin::$session
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Admin->__construct()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-22 03:48:59 --> Call to undefined method CodeIgniter\Session\Session::logged()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-22 03:50:02 --> Cannot call constructor
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-22 03:52:42 --> Call to undefined method CodeIgniter\Session\Session::logged()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(801): App\Controllers\Admin->__construct()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(401): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

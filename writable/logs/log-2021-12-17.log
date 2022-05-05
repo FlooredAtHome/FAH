@@ -1,0 +1,115 @@
+ERROR - 2021-12-17 00:19:10 --> Cannot add or update a child row: a foreign key constraint fails (`fah_portal`.`users`, CONSTRAINT `ID` FOREIGN KEY (`RID`) REFERENCES `role` (`ID`))
+ERROR - 2021-12-17 04:18:52 --> Table 'users' already exists
+ERROR - 2021-12-17 05:20:02 --> Table 'fah_portal.apiusers' doesn't exist
+CRITICAL - 2021-12-17 05:20:03 --> Allowed fields must be specified for model: App\Models\APIUserModel
+#0 C:\xampp\htdocs\FAH\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\APIU...')
+#1 C:\xampp\htdocs\FAH\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\FAH\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\FAH\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Register.php(29): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Register->index()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-12-17 05:20:38 --> Table 'fah_portal.apiusers' doesn't exist
+CRITICAL - 2021-12-17 05:20:38 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\FAH\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\FAH\app\Controllers\APILogin.php(21): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\APILogin->index()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\APILogin))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-12-17 05:20:47 --> Table 'fah_portal.apiusers' doesn't exist
+CRITICAL - 2021-12-17 05:20:47 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\FAH\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\FAH\app\Controllers\APILogin.php(21): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\APILogin->index()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\APILogin))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-12-17 05:25:42 --> Table 'fah_portal.apiusers' doesn't exist
+CRITICAL - 2021-12-17 05:25:42 --> Call to a member function getFirstRow() on bool
+#0 C:\xampp\htdocs\FAH\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#1 C:\xampp\htdocs\FAH\app\Controllers\APILogin.php(21): CodeIgniter\BaseModel->first()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\APILogin->index()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\APILogin))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-12-17 05:26:03 --> Table 'fah_portal.apiusers' doesn't exist
+CRITICAL - 2021-12-17 05:26:03 --> Allowed fields must be specified for model: App\Models\APIUserModel
+#0 C:\xampp\htdocs\FAH\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\APIU...')
+#1 C:\xampp\htdocs\FAH\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\FAH\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\FAH\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Register.php(29): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Register->index()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-12-17 05:29:10 --> Table 'fah_portal.apiusers' doesn't exist
+CRITICAL - 2021-12-17 05:29:10 --> Allowed fields must be specified for model: App\Models\APIUserModel
+#0 C:\xampp\htdocs\FAH\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\APIU...')
+#1 C:\xampp\htdocs\FAH\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\FAH\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\FAH\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Register.php(29): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Register->index()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-12-17 05:30:06 --> Table 'fah_portal.apiusers' doesn't exist
+CRITICAL - 2021-12-17 05:30:06 --> Allowed fields must be specified for model: App\Models\APIUserModel
+#0 C:\xampp\htdocs\FAH\system\BaseModel.php(1138): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\APIU...')
+#1 C:\xampp\htdocs\FAH\system\BaseModel.php(713): CodeIgniter\BaseModel->doProtectFields(Array)
+#2 C:\xampp\htdocs\FAH\system\Model.php(620): CodeIgniter\BaseModel->insert(Array, false)
+#3 C:\xampp\htdocs\FAH\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Register.php(29): CodeIgniter\BaseModel->save(Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Register->index()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-17 06:30:52 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\FAH\app\Controllers\FahAPI.php(5): require()
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-17 06:31:46 --> Class "CI_Controller" not found
+#0 C:\xampp\htdocs\FAH\app\Controllers\FahAPI.php(5): require()
+#1 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(264): include_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\FAH\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-17 06:45:18 --> Call to undefined method App\Controllers\FahAPI::echo()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\FahAPI->create()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FahAPI))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\FAH\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}

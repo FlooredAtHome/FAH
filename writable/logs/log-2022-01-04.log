@@ -1,0 +1,104 @@
+CRITICAL - 2022-01-04 02:55:18 --> Undefined variable $values
+#0 C:\xampp\htdocs\FAH\app\Views\Admin\vendor.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 4)
+#1 C:\xampp\htdocs\FAH\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('Admin/vendor', Array, true)
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(43): view('Admin/vendor', Array)
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->vendor()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-04 05:20:00 --> Duplicate entry 'thirdvendor@gmail.com' for key 'EMAIL'
+CRITICAL - 2022-01-04 05:20:00 --> Duplicate entry 'thirdvendor@gmail.com' for key 'EMAIL'
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\FAH\app\Models\VendorModel.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(127): App\Models\VendorModel->insertVendor('Third', 'Vendor', 'thirdvendor@gma...', '2')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->insertVendor()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-04 05:20:41 --> Duplicate entry 'thirdvendor@gmail.com' for key 'EMAIL'
+CRITICAL - 2022-01-04 05:20:41 --> Duplicate entry 'thirdvendor@gmail.com' for key 'EMAIL'
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\FAH\app\Models\VendorModel.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(127): App\Models\VendorModel->insertVendor('Third', 'Vendor', 'thirdvendor@gma...', '2')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->insertVendor()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-04 05:21:19 --> Duplicate entry 'thirdvendor1@gmail.com' for key 'EMAIL'
+CRITICAL - 2022-01-04 05:21:19 --> Duplicate entry 'thirdvendor1@gmail.com' for key 'EMAIL'
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\FAH\app\Models\VendorModel.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(127): App\Models\VendorModel->insertVendor('Third', 'Vendor', 'thirdvendor1@gm...', '2')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->insertVendor()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-04 05:21:47 --> Duplicate entry 'thirdvendor2@gmail.com' for key 'EMAIL'
+CRITICAL - 2022-01-04 05:21:47 --> Duplicate entry 'thirdvendor2@gmail.com' for key 'EMAIL'
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\FAH\app\Models\VendorModel.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(127): App\Models\VendorModel->insertVendor('Third', 'Vendor', 'thirdvendor2@gm...', '2')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->insertVendor()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-01-04 05:25:25 --> Duplicate entry 'thirdvendor3@gmail.com' for key 'EMAIL'
+CRITICAL - 2022-01-04 05:25:25 --> Duplicate entry 'thirdvendor3@gmail.com' for key 'EMAIL'
+#0 C:\xampp\htdocs\FAH\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO use...', 0)
+#1 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO use...')
+#2 C:\xampp\htdocs\FAH\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO use...')
+#3 C:\xampp\htdocs\FAH\app\Models\VendorModel.php(38): CodeIgniter\Database\BaseConnection->query('INSERT INTO use...')
+#4 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(127): App\Models\VendorModel->insertVendor('Third', 'Vendor', 'thirdvendor3@gm...', '2')
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->insertVendor()
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#7 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-01-04 22:21:00 --> Call to undefined method CodeIgniter\Email\Email::setAttach()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->reset_password()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-04 23:08:39 --> Too few arguments to function CodeIgniter\Session\Session::set(), 0 passed in C:\xampp\htdocs\FAH\app\Controllers\Login.php on line 26 and at least 1 expected
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(26): CodeIgniter\Session\Session->set()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->reset_password_view()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 23:09:08 --> Undefined variable $setTempdata
+#0 C:\xampp\htdocs\FAH\app\Controllers\Login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Login->reset_password_view()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-01-04 23:43:53 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::intval()
+#0 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-01-04 23:44:07 --> Array to string conversion
+#0 C:\xampp\htdocs\FAH\app\Controllers\Admin.php(269): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 269)
+#1 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\Admin->customerView()
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -1,0 +1,111 @@
+CRITICAL - 2022-04-07 01:29:09 --> Undefined constant "k"
+#0 C:\xampp\htdocs\FAH\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/vendor_hom...', Array, true)
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(356): view('home/vendor_hom...', Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-07 01:29:21 --> Undefined constant "k"
+#0 C:\xampp\htdocs\FAH\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/vendor_hom...', Array, true)
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(356): view('home/vendor_hom...', Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-07 01:32:38 --> Undefined constant "k"
+#0 C:\xampp\htdocs\FAH\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/vendor_hom...', Array, true)
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(356): view('home/vendor_hom...', Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-07 01:34:02 --> Undefined constant "k"
+#0 C:\xampp\htdocs\FAH\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\FAH\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\FAH\system\Common.php(1097): CodeIgniter\View\View->render('home/vendor_hom...', Array, true)
+#3 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(356): view('home/vendor_hom...', Array)
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#6 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-07 01:49:21 --> file_put_contents(../public/assets/files/W9 Tax Documentation-1850122000064600066): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(176): file_put_contents('../public/asset...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x01\x00...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(313): App\Controllers\UserHome->getFileDate('Price_Books', '185012200006460...', '1000.9bb2f81114...', '185012200008135...', 'W9 Tax Document...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-07 01:51:11 --> file_put_contents(http://localhost/public/assets/files/W9 Tax Documentation-1850122000064600066): Failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(176): file_put_contents('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x01\x00...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(313): App\Controllers\UserHome->getFileDate('Price_Books', '185012200006460...', '1000.9bb2f81114...', '185012200008135...', 'W9 Tax Document...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-07 01:53:27 --> file_put_contents(http://localhost/FAH/public/assets/files/W9 Tax Documentation-1850122000064600066): Failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(176): file_put_contents('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x01\x00...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(313): App\Controllers\UserHome->getFileDate('Price_Books', '185012200006460...', '1000.9bb2f81114...', '185012200008135...', 'W9 Tax Document...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-07 01:55:54 --> file_put_contents(http://localhost/FAH/public/assets/files/W9 Tax Documentation-1850122000064600066): Failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(176): file_put_contents('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x01\x00...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(313): App\Controllers\UserHome->getFileDate('Price_Books', '185012200006460...', '1000.9bb2f81114...', '185012200008135...', 'W9 Tax Document...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-07 01:56:53 --> file_put_contents(/FAH/public/assets/files/W9 Tax Documentation-1850122000064600066): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(176): file_put_contents('/FAH/public/ass...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x01\x00...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(313): App\Controllers\UserHome->getFileDate('Price_Books', '185012200006460...', '1000.9bb2f81114...', '185012200008135...', 'W9 Tax Document...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-07 02:26:02 --> file_put_contents(/FAH/public/assets/files/JJA Hardwood W9.jpeg): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(176): file_put_contents('/FAH/public/ass...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x01\x00...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(313): App\Controllers\UserHome->getFileDate('Price_Books', '185012200006460...', '1000.9ba0d33b3a...', '185012200008135...', 'JJA Hardwood W9...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-07 02:27:33 --> file_put_contents(http://localhost/FAH/public/assets/files/JJA Hardwood W9.jpeg): Failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_put_conten...', 'C:\\xampp\\htdocs...', 176)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(176): file_put_contents('http://localhos...', '\xFF\xD8\xFF\xE0\x00\x10JFIF\x00\x01\x01\x01\x00...')
+#2 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(313): App\Controllers\UserHome->getFileDate('Price_Books', '185012200006460...', '1000.9ba0d33b3a...', '185012200008135...', 'JJA Hardwood W9...')
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#5 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-07 04:50:56 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_conten...', 'C:\\xampp\\htdocs...', 275)
+#1 C:\xampp\htdocs\FAH\app\Controllers\UserHome.php(275): file_get_contents('https://fahback...')
+#2 C:\xampp\htdocs\FAH\system\CodeIgniter.php(824): App\Controllers\UserHome->vendor_home()
+#3 C:\xampp\htdocs\FAH\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserHome))
+#4 C:\xampp\htdocs\FAH\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\FAH\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

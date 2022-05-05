@@ -1,0 +1,159 @@
+CRITICAL - 2021-12-08 12:05:28 --> syntax error, unexpected ',', expecting ']'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/logout')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/logout')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 12:11:01 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 12:13:58 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 12:14:51 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 12:17:28 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 12:17:36 --> Call to a member function set() on null
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->verify()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 12:26:23 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 /opt/lampp/htdocs/FAH/app/Controllers/Login.php(142): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', '/opt/lampp/htdo...', 142, Array)
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->user_home()
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 12:26:32 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->user_home()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 12:27:23 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->user_home()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 12:27:25 --> Cannot use object of type CodeIgniter\Session\Session as array
+#0 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(824): App\Controllers\Login->user_home()
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2021-12-08 12:33:25 --> syntax error, unexpected '<'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 12:35:30 --> syntax error, unexpected ')', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 12:35:55 --> syntax error, unexpected '{'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 12:38:42 --> syntax error, unexpected ')'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/Login/ver...')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/Login/ver...')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 12:38:47 --> syntax error, unexpected ')'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 12:38:49 --> syntax error, unexpected ')'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 23:11:21 --> syntax error, unexpected ';', expecting ']'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 23:19:18 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 23:19:38 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2021-12-08 23:20:48 --> syntax error, unexpected ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 23:21:11 --> syntax error, unexpected ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 23:23:14 --> syntax error, unexpected ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 23:24:06 --> syntax error, unexpected ';'
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 23:25:09 --> syntax error, unexpected 'if' (T_IF)
+#0 /opt/lampp/htdocs/FAH/system/Router/Router.php(176): CodeIgniter\Router\Router->autoRoute('Login/user_home')
+#1 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(718): CodeIgniter\Router\Router->handle('Login/user_home')
+#2 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(359): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/FAH/system/CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/FAH/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2021-12-08 23:25:49 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
