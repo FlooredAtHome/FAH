@@ -112,7 +112,47 @@ class Login extends Controller
         }
        
     }
-    
+    // public function reset_password()
+    // {
+    //     $data = [];
+    //     $EMAIL = $this->request->getPost('EMAIL');
+    //     $userdata = $this->loginModel->verifyEmail($EMAIL);
+    //     if(!empty($userdata))
+    //     {
+    //         if($this->loginModel->updatedAt($userdata['UID']))
+    //         {
+    //             $to = $EMAIL;
+    //             $subject = 'Reset Password Link';
+    //             $token = $userdata['UID'];
+    //             $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].','.'<br><br>'
+    //                     . 'Your reset password request has been received. Please verify within 60 minutes. Please click '
+    //                     . 'the below link to reset your password.<br><br>'
+    //                     . '<a href="'.base_url().'/FAH/Login/change_pwd/'.$token.'">Click here to reset password</a><br><br>'
+    //                     . 'Thanks<br>Floored At Home';
+    //             $email = \Config\Services::email();
+    //             $email->setTo($to);
+    //             $email->setFrom('fahresethelp@gmail.com','Floored At Home');
+    //             $email->setSubject($subject);
+    //             $email->setMessage($message);
+    //             $email->attach('C:\Users\PD\Downloads\users.pdf');
+    //             if($email->Send())
+    //             {
+    //                 $this->session()->setTempdata('success','Reset password link sent to your registerd email. Please verify within 60 minutes.',3);
+    //                 return redirect()->to(base_url('FAH/Login/reset_password_view'));
+    //             }
+    //         }
+    //         else
+    //         {
+    //             $this->session->setTempdata('error','Unable to update. Please try again',3);
+    //             return redirect()->to(base_url('FAH/Login/reset_password_view'));
+    //         }
+    //     }
+    //     else
+    //     {
+    //         $this->session->setTempdata('error','Sorry! Email does not exists',3);
+    //         return redirect()->to(base_url('FAH/Login/reset_password_view'));
+    //     }
+    // }
 
     public function change_pwd($uid){
         // $uemail = $this->input->get('email');
