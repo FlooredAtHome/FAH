@@ -111,8 +111,7 @@ class Login extends Controller
     //         return redirect()->to(base_url('FAH'));
     //     }
        
-    // }
-    
+
 
     public function change_pwd($uid){
         // $uemail = $this->input->get('email');
