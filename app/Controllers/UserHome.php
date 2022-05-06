@@ -22,6 +22,22 @@ class UserHome extends Controller
         $this->commentModel = new CommentModel();
         $this->vendorModel = new vendorModel();
         $this->session = session();
+        if($this->session->get('email') != '')
+        {
+            if($this->session->get('roleid') == 1){
+                return redirect()->to(base_url('FAH/Admin/index'));
+            }
+            if($this->session->get('roleid') == 2){
+                return redirect()->to(base_url('FAH/UserHome/vendor_home'));
+            }
+            if($this->session->get('roleid') == 3){
+                return redirect()->to(base_url('FAH/UserHome/user_home'));
+            }
+        }
+        else
+        {
+            echo view('Login/user');
+        }
     }
     public function proptime(){
         $EMAIL=$this->session->get('email');
@@ -111,6 +127,11 @@ class UserHome extends Controller
         }
     }
 
+    public function logout(){
+        $this->session->destroy();
+        return redirect()->to(base_url('FAH'));
+    }
+
     public function verify()
     {
         $data = [];
@@ -136,48 +157,22 @@ class UserHome extends Controller
                             'logged_in_time' => $log_time,
                             'roleid' => $role,
                         ];
-                        
+                        $this->session->set($newdata);
+                        $EMAIL = $this->session->get('email');
+                        $userdata = $this->loginModel->verifyEmail($EMAIL);
+                        $data['email'] = $this->session->get('email');
+                        $data['logged_in_time']= $this->session->get('logged_in_time');
+                        $email=$data['email'];
+                        $UID = $userdata['UID'];
+                        $logged_in_time=$data['logged_in_time'];
+                        $result = $this->timingModel->timeclick($UID,$email,$logged_in_time,$clicked='login');
+
                         if($userdata['RID'] == '3')
-                        {
-                            $this->session->set($newdata);
-                            if($this->session->get('email')!=''){
-                                $EMAIL = $this->session->get('email');
-                                $userdata = $this->loginModel->verifyEmail($EMAIL);
-                                $data['email'] = $this->session->get('email');
-                                $data['logged_in_time']= $this->session->get('logged_in_time');
-                                $email=$data['email'];
-                                $UID = $userdata['UID'];
-                                $logged_in_time=$data['logged_in_time'];
-                                $result = $this->timingModel->timeclick($UID,$email,$logged_in_time,$clicked='login');
-                                return redirect()->to(base_url('FAH/UserHome/user_home'));
-                            }
-                        }
+                            return redirect()->to(base_url('FAH/UserHome/user_home'));
                         else if($userdata['RID'] == '2')
-                        {
-                           // echo "Welcome Vendor";
-                            $this->session->set($newdata);
-                            if($this->session->get('email')!=''){
-                                $EMAIL = $this->session->get('email');
-                                $userdata = $this->loginModel->verifyEmail($EMAIL);
-                                $data['email'] = $this->session->get('email');
-                                $data['logged_in_time']= $this->session->get('logged_in_time');
-                                $email=$data['email'];
-                                $UID = $userdata['UID'];
-                                $logged_in_time=$data['logged_in_time'];
-                                $result = $this->timingModel->timeclick($UID,$email,$logged_in_time,$clicked='login');
-                                return redirect()->to(base_url('FAH/UserHome/vendor_home'));
-                            }
-                        }
+                            return redirect()->to(base_url('FAH/UserHome/vendor_home'));
                         else if($userdata['RID'] == '1')
-                        {
-                            //$this->session->destroy();
-                            echo $log_time;
-                            $this->session->set($newdata);
-                            if($this->session->get('email')!='')
-                            {
-                                return redirect()->to(base_url('FAH/Admin/index'));
-                            }
-                        }
+                            return redirect()->to(base_url('FAH/Admin/index'));
                      
                     }
                     else
@@ -265,7 +260,7 @@ class UserHome extends Controller
     }
     public function user_home()
     {
-        if($this->session->get('email')!=''){
+        if($this->session->get('email')!='' && $this->session->get('roleid') == '3'){
             $EMAIL = $this->session->get('email');
             $userdata = $this->loginModel->verifyEmail($EMAIL);
             $data['email'] = $this->session->get('email');
@@ -352,10 +347,7 @@ class UserHome extends Controller
                 {
                     $this->session->setTempdata('errorvendhome','Sorry! Something Went Wrong While Proposing New Price  : '.$json_for_update_response['data'][0]["message"] ,3);
                     return redirect()->to(base_url('FAH/UserHome/vendor_home')); 
-                }    
-
-
-
+                }
             
             }
             else
@@ -482,10 +474,11 @@ class UserHome extends Controller
                     if(isset($cus_field["value"]) && !empty($cus_field["value"]))
                     {
                         $proj_data["Vendor Invoice Url"] = $cus_field["value"];
+                        // print_r($task_data["custom_fields"]);
                     }
                     else
                     {
-                        $proj_data[""] = "";
+                        $proj_data["Vendor Invoice Url"] = "";
                     }
                 }
                 
@@ -493,6 +486,7 @@ class UserHome extends Controller
             if(isset($ZC_PO_ID) && !empty($ZC_PO_ID))
             {
                 echo view("home/project_home", ["ZC_PO_ID"=>$ZC_PO_ID, "task_data"=>$task_data,"proj_data"=>$proj_data]);
+                // print_r($task_data["custom_fields"]);
             }
             else
             {
@@ -670,7 +664,7 @@ class UserHome extends Controller
     }
     public function vendor_home()
     {
-        if($this->session->get('email')!=''){
+        if($this->session->get('email')!=''  && $this->session->get('roleid') == '2'){
             $EMAIL = $this->session->get('email');
             $userdata = $this->loginModel->verifyEmail($EMAIL);
             $data['email'] = $this->session->get('email');

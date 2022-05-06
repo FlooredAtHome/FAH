@@ -105,13 +105,13 @@ class Login extends Controller
             }
         }        
     }
-    public function logout(){
-        $this->session->remove('email');
-        if($this->session->remove('email')==''){
-            return redirect()->to(base_url('FAH'));
-        }
+    // public function logout(){
+    //     $this->session->remove('email');
+    //     if($this->session->remove('email')==''){
+    //         return redirect()->to(base_url('FAH'));
+    //     }
        
-    }
+    // }
     
 
     public function change_pwd($uid){
