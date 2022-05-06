@@ -30,7 +30,7 @@ class Admin extends Controller
     }
     public function index()
     {
-        if($this->session->has("email"))
+        if($this->session->has("email")  && $this->session->get('roleid') == '1')
         { 
             $EMAIL = $this->session->get('email');
             $customerdata = $this->customerModel->customerDetails($EMAIL);

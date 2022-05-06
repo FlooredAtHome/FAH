@@ -26,7 +26,7 @@
 
 				<?php endif; ?>
 
-				<form class="login-form" action="UserHome/verify" method="post">
+				<form class="login-form" action="<?= base_url("FAH/UserHome/verify")?>" method="post">
 					<?= csrf_field(); ?>
 					<div class="login-inside">
 					<div class="form-input">
