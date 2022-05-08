@@ -15,26 +15,26 @@ class Login extends Controller
         $this->loginModel = new LoginModel();
         $this->session = session();
     }
-    public function user()
-    {
-        if($this->session->get('email') != '')
-        {
-            print_r($this->session->get('roleid'));
-            if($this->session->get('roleid') == 1){
-                return redirect()->to(base_url('FAH/Admin/index'));
-            }
-            if($this->session->get('roleid') == 2){
-                return redirect()->to(base_url('FAH/UserHome/vendor_home'));
-            }
-            if($this->session->get('roleid') == 3){
-                return redirect()->to(base_url('FAH/UserHome/user_home'));
-            }
-        }
-        else
-        {
-            echo view('Login/user');
-        }
-    }
+    // public function user()
+    // {
+    //     if($this->session->get('email') != '')
+    //     {
+    //         print_r($this->session->get('roleid'));
+    //         if($this->session->get('roleid') == 1){
+    //             return redirect()->to(base_url('FAH/Admin/index'));
+    //         }
+    //         if($this->session->get('roleid') == 2){
+    //             return redirect()->to(base_url('FAH/UserHome/vendor_home'));
+    //         }
+    //         if($this->session->get('roleid') == 3){
+    //             return redirect()->to(base_url('FAH/UserHome/user_home'));
+    //         }
+    //     }
+    //     else
+    //     {
+    //         echo view('Login/user');
+    //     }
+    // }
     public function reset_password_view()
     {
         return view("Login/reset_password_view");
@@ -61,6 +61,7 @@ class Login extends Controller
                         $newdata = [
                             'email'  =>  $EMAIL,
                             'logged_in_time' => $log_time,
+                            
                         ];
                         
                         if($userdata['RID'] == '3')

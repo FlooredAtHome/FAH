@@ -1,66 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Admin</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-    
-    <!-- End Carousal -->
-    <!-- JS -->
-   
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
-    <script type="text/javascript" src="../public/assets/js/header.js"></script>
-    <script type="text/javascript" src="../public/assets/js/weather.js"></script>
-    <script type="text/javascript" src="../public/assets/js/lightslider.js"></script>
-    <link rel="stylesheet" href="../public/assets/css/style.css">
-    <link type="text/css" rel="stylesheet" href="../public/assets/css/lightslider.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/dataTables.jqueryui.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/1.11.3/js/dataTables.jqueryui.min.js"></script>
-<style>
-    .actived {
-        color: black !important;
-    }
-    #addVendor {
-        display: none;
-    }
-</style>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container cust-border bg-white">
-            <a class="navbar-brand">
-                <img src="../public/assets/images/logofah.png" alt="" width="100" height="85" class="d-inline-block align-text-top img-fluid">   
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="nav nav-tabs" id="nav-tab" role="tablist" style="margin-right: auto;">
-                    <button class="nav-link act active actived" onclick="hideButton()" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" style="color:#182c6d;">Customers</button>
-                    <button class="nav-link act" onclick="showButton()" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" style="color:#182c6d;">Vendors</button>
-                </div>
-                <div class="d-flex align-items-center">
-                    <button type="submit" id="addVendor" name="submit" class="btn custbtn float-end hidden" data-bs-toggle="modal" data-bs-target="#vendorInsert" style="margin-right: 30px; margin-bottom: 24px;">Add Vendor</button>
-                    <div class="pt-3 d-flex flex-column align-items-center">
-                        <button type="button" class="btn custbtn" style="" ><a class="text-decoration-none" href="<?= base_url('FAH/UserHome/logout');?>" style="color:white;">Logout</a></button>
-                        <p class="align-center">Admin Name</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </nav>
-    <script>
+<script>
     function showButton() {
     var x = document.getElementById("addVendor");
         x.style.display = "block";
@@ -73,20 +11,18 @@
         x.style.display = "none";
     }
     }
-    </script>
-    <script>
-        // Add active class to the current button (highlight it)
-        var header = document.getElementById("nav-tab");
-        var btns = header.getElementsByClassName("act");
-        console.log(btns.length);
-        for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function() {
-        var current = document.getElementsByClassName("actived");
-        current[0].className = current[0].className.replace(" actived", "");
-        this.className += " actived";
-        });
-        }
-    </script>
+    // Add active class to the current button (highlight it)
+    var header = document.getElementById("nav-tab");
+    var btns = header.getElementsByClassName("act");
+    console.log(btns.length);
+    for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("actived");
+    current[0].className = current[0].className.replace(" actived", "");
+    this.className += " actived";
+    });
+    }
+</script>
 <!-- Customers Table -->
 
 <div class="tab-content" id="nav-tabContent">

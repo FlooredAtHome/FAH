@@ -23,6 +23,13 @@ class UserHome extends Controller
         $this->vendorModel = new vendorModel();
         $this->session = session();
     }
+    // public function check(){
+    //     if($this->session->get('email') == '' && $this->session->get('roleid') == '' && $this->session->get('roleid') != '2' && $this->session->get('roleid') != '3'){
+    //         $this->session->destroy();
+    //         echo view('Login/user');
+    //         exit;
+    //     }
+    // }
     public function proptime(){
         $EMAIL=$this->session->get('email');
         $userdata = $this->loginModel->verifyEmail($EMAIL);
@@ -60,13 +67,16 @@ class UserHome extends Controller
         }
         else
         {
+            echo view('templates/header');
             echo view('Login/user');
         }
     }
     
     public function reset_password_view()
     {
-        return redirect()->to(base_url('FAH/Login/reset_password_view'));
+        echo view("templates/header");
+        echo view("Login/reset_password_view");
+        // redirect()->to(base_url('FAH/Login/reset_password_view'));
     }
 
     public function reset_password()
@@ -111,6 +121,13 @@ class UserHome extends Controller
         }
     }
 
+    public function logout(){
+        $this->session->destroy();
+        // echo $this->session->get("email");
+        return redirect()->to(base_url('FAH')); 
+    }
+
+
     public function verify()
     {
         $data = [];
@@ -137,46 +154,27 @@ class UserHome extends Controller
                             'roleid' => $role,
                         ];
                         
+                        $this->session->set($newdata);
+                        $EMAIL = $this->session->get('email');
+                        $userdata = $this->loginModel->verifyEmail($EMAIL);
+                        $data['email'] = $this->session->get('email');
+                        $data['logged_in_time']= $this->session->get('logged_in_time');
+                        $email=$data['email'];
+                        $UID = $userdata['UID'];
+                        $logged_in_time=$data['logged_in_time'];
+                        $result = $this->timingModel->timeclick($UID,$email,$logged_in_time,$clicked='login');
+
                         if($userdata['RID'] == '3')
                         {
-                            $this->session->set($newdata);
-                            if($this->session->get('email')!=''){
-                                $EMAIL = $this->session->get('email');
-                                $userdata = $this->loginModel->verifyEmail($EMAIL);
-                                $data['email'] = $this->session->get('email');
-                                $data['logged_in_time']= $this->session->get('logged_in_time');
-                                $email=$data['email'];
-                                $UID = $userdata['UID'];
-                                $logged_in_time=$data['logged_in_time'];
-                                $result = $this->timingModel->timeclick($UID,$email,$logged_in_time,$clicked='login');
-                                return redirect()->to(base_url('FAH/UserHome/user_home'));
-                            }
+                            return redirect()->to(base_url('FAH/UserHome/user_home'));
                         }
                         else if($userdata['RID'] == '2')
                         {
-                           // echo "Welcome Vendor";
-                            $this->session->set($newdata);
-                            if($this->session->get('email')!=''){
-                                $EMAIL = $this->session->get('email');
-                                $userdata = $this->loginModel->verifyEmail($EMAIL);
-                                $data['email'] = $this->session->get('email');
-                                $data['logged_in_time']= $this->session->get('logged_in_time');
-                                $email=$data['email'];
-                                $UID = $userdata['UID'];
-                                $logged_in_time=$data['logged_in_time'];
-                                $result = $this->timingModel->timeclick($UID,$email,$logged_in_time,$clicked='login');
-                                return redirect()->to(base_url('FAH/UserHome/vendor_home'));
-                            }
+                            return redirect()->to(base_url('FAH/UserHome/vendor_home'));
                         }
                         else if($userdata['RID'] == '1')
                         {
-                            //$this->session->destroy();
-                            echo $log_time;
-                            $this->session->set($newdata);
-                            if($this->session->get('email')!='')
-                            {
                                 return redirect()->to(base_url('FAH/Admin/index'));
-                            }
                         }
                      
                     }
@@ -265,11 +263,12 @@ class UserHome extends Controller
     }
     public function user_home()
     {
-        if($this->session->get('email')!=''){
+        if($this->session->get('roleid')=='3'){
             $EMAIL = $this->session->get('email');
             $userdata = $this->loginModel->verifyEmail($EMAIL);
             $data['email'] = $this->session->get('email');
             $data['logged_in_time']= $this->session->get('logged_in_time');
+            $data['role'] = $this->session->get("roleid");
             $email=$data['email'];
             $UID = $userdata['UID'];
 
@@ -301,15 +300,17 @@ class UserHome extends Controller
             }
             else
             {
-                $mp_image_url = "/public/assets/No_Image_Available.jpg";
+                $mp_image_url = base_url('/public/assets/images/No_Image_Available.jpg');
             }
             $email = $po_data["Owner"]["email"];
 			$mname = $po_data["Owner"]["name"];
 
-
+            echo view("templates/header");
+            echo view("templates/navbar",["data" => $data,"email"=>$email,"name"=>$mname]);
             echo view("home/user_home", ["pid"=>$pid, "comments"=>$comments,"po_data"=>$po_data,"mp_image_url"=>$mp_image_url,"email"=>$email,"name"=>$mname,"urls"=>$url]);
-        }
-        else{
+        }     
+        else
+        {
             return redirect()->to(base_url('FAH'));
         }
     }
@@ -375,7 +376,7 @@ class UserHome extends Controller
         if($this->session->get('email')!='')
         {
             $task_data =  $this->getClickuptask($id);
-        
+            $data['role'] = $this->session->get("roleid");
             $cus_fields = $task_data["custom_fields"];
             $proj_data =  [];
 
@@ -485,13 +486,14 @@ class UserHome extends Controller
                     }
                     else
                     {
-                        $proj_data[""] = "";
+                        $proj_data["Vendor Invoice Url"] = "";
                     }
                 }
                 
             }
             if(isset($ZC_PO_ID) && !empty($ZC_PO_ID))
             {
+                echo view("templates/header", ["data" => $data]);
                 echo view("home/project_home", ["ZC_PO_ID"=>$ZC_PO_ID, "task_data"=>$task_data,"proj_data"=>$proj_data]);
             }
             else
@@ -670,9 +672,10 @@ class UserHome extends Controller
     }
     public function vendor_home()
     {
-        if($this->session->get('email')!=''){
+        if($this->session->get("roleid")== "2"){
             $EMAIL = $this->session->get('email');
             $userdata = $this->loginModel->verifyEmail($EMAIL);
+            $data["role"] = $this->session->get('roleid');
             $data['email'] = $this->session->get('email');
             $data['logged_in_time']= $this->session->get('logged_in_time');
             $email=$data['email'];
@@ -751,12 +754,13 @@ class UserHome extends Controller
              }    
             $products = $this->searchRecords("Products_X_Teams","(Teams:equals:".$ZC_V_ID.")",$token);
             $products = $products['data'];
-            
+            echo view("templates/header");
+            echo view("templates/navbar",["data"=>$data]);
             echo view("home/vendor_home", ["zc_v_id"=>$ZC_V_ID, "vendor_data"=>$vendor_data,"paper_work_data"=>$paper_work_data,"ven_projs"=>$ven_projs,"products"=>$products ,"email"=>$email]);
         }
         else{
-            return redirect()->to(base_url('FAH'));
-        }
+            return redirect()->to(base_url("FAH"));
+        }  
     }
 }
 ?>

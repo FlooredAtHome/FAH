@@ -27,42 +27,38 @@ class Admin extends Controller
         $this->timingModel = new TimingModel();
         $this->projectModel = new ProjectModel();
         $this->session = session();
+        
+    }
+    public function check(){
+        if($this->session->get('email') == '' && $this->session->get('roleid') == '' || $this->session->get('roleid') != '1'){
+            $this->session->destroy();
+            echo view('Login/user');
+            exit;
+        }
     }
     public function index()
     {
-        if($this->session->has("email"))
-        { 
-            $EMAIL = $this->session->get('email');
-            $customerdata = $this->customerModel->customerDetails($EMAIL);
-            $vendordata = $this->vendorModel->vendorDetails($EMAIL);
+            $data["email"] = $this->session->get('email');
+            $data["role"] = $this->session->get('roleid');
+            $customerdata = $this->customerModel->customerDetails($data["email"]);
+            $vendordata = $this->vendorModel->vendorDetails($data["email"]);
+            echo view("templates/header");
+            echo view("templates/navbar",["data"=>$data]);
             echo view("Admin/admin", ["customerdata"=>$customerdata, "vendordata"=>$vendordata]);
-        }
-        else
-        {
-            return redirect()->to(base_url('FAH'));
-        }
     }
     public function updateCustomer()
     {
-        if($this->session->has("email"))
+        if($this->request->getMethod() == 'post')
         {
-            if($this->request->getMethod() == 'post')
+            $UID = $this->request->getPost('uid');
+            $FIRST_NAME = $this->request->getPost('newfirstname');
+            $LAST_NAME = $this->request->getPost('newlastname');
+            $EMAIL = $this->request->getPost('newemail');
+            $result = $this->customerModel->customerUpdates($UID,$FIRST_NAME,$LAST_NAME,$EMAIL);
+            if($result == true)
             {
-                $UID = $this->request->getPost('uid');
-                $FIRST_NAME = $this->request->getPost('newfirstname');
-                $LAST_NAME = $this->request->getPost('newlastname');
-                $EMAIL = $this->request->getPost('newemail');
-                $result = $this->customerModel->customerUpdates($UID,$FIRST_NAME,$LAST_NAME,$EMAIL);
-                if($result == true)
-                {
-                    $this->session->setTempdata('successcust','Details updated successfully!',3);
-                    return redirect()->to(base_url('FAH/Admin/index'));
-                }
-                else
-                {
-                    $this->session->setTempdata('errorcust','Sorry! Try again after some time.',3);
-                    return redirect()->to(base_url('FAH/Admin/index'));
-                }
+                $this->session->setTempdata('successcust','Details updated successfully!',3);
+                return redirect()->to(base_url('FAH/Admin/index'));
             }
             else
             {
@@ -72,30 +68,23 @@ class Admin extends Controller
         }
         else
         {
-            return redirect()->to(base_url('FAH'));
+            $this->session->setTempdata('errorcust','Sorry! Try again after some time.',3);
+            return redirect()->to(base_url('FAH/Admin/index'));
         }
     }
     public function updateVendor()
     {
-        if($this->session->has("email"))
+        if($this->request->getMethod() == 'post')
         {
-            if($this->request->getMethod() == 'post')
+            $UID = $this->request->getPost('uid');
+            $FIRST_NAME = $this->request->getPost('newfirstname');
+            $LAST_NAME = $this->request->getPost('newlastname');
+            $EMAIL = $this->request->getPost('newemail');
+            $result = $this->vendorModel->vendorUpdates($UID,$FIRST_NAME,$LAST_NAME,$EMAIL);
+            if($result == true)
             {
-                $UID = $this->request->getPost('uid');
-                $FIRST_NAME = $this->request->getPost('newfirstname');
-                $LAST_NAME = $this->request->getPost('newlastname');
-                $EMAIL = $this->request->getPost('newemail');
-                $result = $this->vendorModel->vendorUpdates($UID,$FIRST_NAME,$LAST_NAME,$EMAIL);
-                if($result == true)
-                {
-                    $this->session->setTempdata('successvend','Details updated successfully!',3);
-                    return redirect()->to(base_url('FAH/Admin/index'));
-                }
-                else
-                {
-                    $this->session->setTempdata('errorvend','Sorry! Try again after some time.',3);
-                    return redirect()->to(base_url('FAH/Admin/index'));
-                }
+                $this->session->setTempdata('successvend','Details updated successfully!',3);
+                return redirect()->to(base_url('FAH/Admin/index'));
             }
             else
             {
@@ -105,151 +94,129 @@ class Admin extends Controller
         }
         else
         {
-            return redirect()->to(base_url('FAH'));
+            $this->session->setTempdata('errorvend','Sorry! Try again after some time.',3);
+            return redirect()->to(base_url('FAH/Admin/index'));
         }
     }
     public function insertVendor()
     {
-        if($this->session->has("email"))
+        if($this->request->getMethod() == 'post')
         {
-            if($this->request->getMethod() == 'post')
+            $FIRST_NAME = $this->request->getPost('firstname');
+            $LAST_NAME = $this->request->getPost('lastname');
+            $EMAIL = $this->request->getPost('email');
+            $RID = '2';
+            $result = $this->vendorModel->insertVendor($FIRST_NAME,$LAST_NAME,$EMAIL,$RID);
+            if($result == true)
             {
-                $FIRST_NAME = $this->request->getPost('firstname');
-                $LAST_NAME = $this->request->getPost('lastname');
-                $EMAIL = $this->request->getPost('email');
-                $RID = '2';
-                $result = $this->vendorModel->insertVendor($FIRST_NAME,$LAST_NAME,$EMAIL,$RID);
-                if($result == true)
-                {
-                    $this->session->setTempdata('successvend','Vendor inserted successfully!',3);
-                    return redirect()->to(base_url('FAH/Admin/index'));
-                }
-                else
-                {
-                    $this->session->setTempdata('errorvend','Sorry! Try again after some time.',3);
-                    return redirect()->to(base_url('FAH/Admin/index'));
-                }
+                $this->session->setTempdata('successvend','Vendor inserted successfully!',3);
+                return redirect()->to(base_url('FAH/Admin/index'));
             }
             else
             {
                 $this->session->setTempdata('errorvend','Sorry! Try again after some time.',3);
                 return redirect()->to(base_url('FAH/Admin/index'));
             }
-        }
-        else
-        {
-            return redirect()->to(base_url('FAH'));
         }
     }
     public function resetpasswordcustomerLink()
     {
-        if($this->session->has("email"))
+        if($this->request->getMethod() == 'post')
         {
-            if($this->request->getMethod() == 'post')
+            $data = [];
+            $EMAIL = $this->request->getPost('EMAIL');
+            $userdata = $this->loginModel->verifyEmail($EMAIL);
+            if(!empty($userdata))
             {
-                $data = [];
-                $EMAIL = $this->request->getPost('EMAIL');
-                $userdata = $this->loginModel->verifyEmail($EMAIL);
-                if(!empty($userdata))
+                if($this->loginModel->updatedAt($userdata['UID']))
                 {
-                    if($this->loginModel->updatedAt($userdata['UID']))
+                    $to = $EMAIL;
+                    $subject = 'Reset Password Link';
+                    $token = $userdata['UID'];
+                    $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].'<br><br>'
+                            . 'Your reset password request has been  received. Please click'
+                            . 'the below link to reset your password.<br><br>'
+                            . '<a href="'.base_url('/login/reset_password()').''.$token.'">Click here to reset password</a><br><br>'
+                            . 'Thanks<br>Floored At Home';
+                    $EMAIL = \Config\Services::email();
+                    $EMAIL->setTo($to);
+                    $EMAIL->setFrom('maheksavanicoc1@gmail.com','Floored At Home');
+                    $EMAIL->setSubject($subject);
+                    $EMAIL->setMessage($message);
+                    if($EMAIL->send())
                     {
-                        $to = $EMAIL;
-                        $subject = 'Reset Password Link';
-                        $token = $userdata['UID'];
-                        $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].'<br><br>'
-                                . 'Your reset password request has been  received. Please click'
-                                . 'the below link to reset your password.<br><br>'
-                                . '<a href="'.base_url('/login/reset_password()').''.$token.'">Click here to reset password</a><br><br>'
-                                . 'Thanks<br>Floored At Home';
-                        $EMAIL = \Config\Services::email();
-                        $EMAIL->setTo($to);
-                        $EMAIL->setFrom('maheksavanicoc1@gmail.com','Floored At Home');
-                        $EMAIL->setSubject($subject);
-                        $EMAIL->setMessage($message);
-                        if($EMAIL->send())
-                        {
-                            session()->setTempdata('successcust','Reset password link sent to registered email.',3);
-                            return redirect()->to(base_url('FAH/Admin/index'));
-                        }
-                    }
-                    else
-                    {
-                        $this->session->setTempdata('errorcust','Unable to update. Please try again',3);
+                        session()->setTempdata('successcust','Reset password link sent to registered email.',3);
                         return redirect()->to(base_url('FAH/Admin/index'));
                     }
                 }
                 else
                 {
-                    $this->session->setTempdata('errorcust','Sorry! Email does not exists',3);
+                    $this->session->setTempdata('errorcust','Unable to update. Please try again',3);
                     return redirect()->to(base_url('FAH/Admin/index'));
                 }
             }
             else
             {
-                $this->session->setTempdata('errorcust','Sorry! Try again after some time.',3);
+                $this->session->setTempdata('errorcust','Sorry! Email does not exists',3);
                 return redirect()->to(base_url('FAH/Admin/index'));
             }
         }
         else
         {
-            return redirect()->to(base_url('FAH'));
+            $this->session->setTempdata('errorcust','Sorry! Try again after some time.',3);
+            return redirect()->to(base_url('FAH/Admin/index'));
         }
     }
     public function resetpasswordvendorLink()
     {
-        if($this->session->has("email"))
+    if($this->request->getMethod() == 'post')
+    {
+        $data = [];
+        $EMAIL = $this->request->getPost('EMAIL');
+        $userdata = $this->loginModel->verifyEmail($EMAIL);
+        if(!empty($userdata))
         {
-            if($this->request->getMethod() == 'post')
+            if($this->loginModel->updatedAt($userdata['UID']))
             {
-                $data = [];
-                $EMAIL = $this->request->getPost('EMAIL');
-                $userdata = $this->loginModel->verifyEmail($EMAIL);
-                if(!empty($userdata))
+                $to = $EMAIL;
+                $subject = 'Reset Password Link';
+                $token = $userdata['UID'];
+                $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].'<br><br>'
+                        . 'Your reset password request has been  received. Please click'
+                        . 'the below link to reset your password.<br><br>'
+                        . '<a href="'.base_url('/login/reset_password()').''.$token.'">Click here to reset password</a><br><br>'
+                        . 'Thanks<br>Floored At Home';
+                $EMAIL = \Config\Services::email();
+                $EMAIL->setTo($to);
+                $EMAIL->setFrom('vaghasia84@gmail.com','Floored At Home');
+                $EMAIL->setSubject($subject);
+                $EMAIL->setMessage($message);
+                if($EMAIL->send())
                 {
-                    if($this->loginModel->updatedAt($userdata['UID']))
-                    {
-                        $to = $EMAIL;
-                        $subject = 'Reset Password Link';
-                        $token = $userdata['UID'];
-                        $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].'<br><br>'
-                                . 'Your reset password request has been  received. Please click'
-                                . 'the below link to reset your password.<br><br>'
-                                . '<a href="'.base_url('/login/reset_password()').''.$token.'">Click here to reset password</a><br><br>'
-                                . 'Thanks<br>Floored At Home';
-                        $EMAIL = \Config\Services::email();
-                        $EMAIL->setTo($to);
-                        $EMAIL->setFrom('maheksavanicoc1@gmail.com','Floored At Home');
-                        $EMAIL->setSubject($subject);
-                        $EMAIL->setMessage($message);
-                        if($EMAIL->send())
-                        {
-                            session()->setTempdata('successvend','Reset password link sent to registered email.',3);
-                            return redirect()->to(base_url('FAH/Admin/index'));
-                        }
-                    }
-                    else
-                    {
-                        $this->session->setTempdata('errorvend','Unable to update. Please try again',3);
-                        return redirect()->to(base_url('FAH/Admin/index'));
-                    }
+                    session()->setTempdata('successvend','Reset password link sent to registered email.',3);
+                    return redirect()->to(base_url('FAH/Admin/index'));
                 }
-                else
-                {
-                    $this->session->setTempdata('errorvend','Sorry! Email does not exists',3);
+                else{
                     return redirect()->to(base_url('FAH/Admin/index'));
                 }
             }
             else
             {
-                $this->session->setTempdata('errorvend','Sorry! Try again after some time.',3);
+                $this->session->setTempdata('errorvend','Unable to update. Please try again',3);
                 return redirect()->to(base_url('FAH/Admin/index'));
             }
         }
         else
         {
-            return redirect()->to(base_url('FAH'));
+            $this->session->setTempdata('errorvend','Sorry! Email does not exists',3);
+            return redirect()->to(base_url('FAH/Admin/index'));
         }
+    }
+    else
+    {
+        $this->session->setTempdata('errorvend','Sorry! Try again after some time.',3);
+        return redirect()->to(base_url('FAH/Admin/index'));
+    }
     }
     public function getRecordById($module,$pid,$token)
     {
@@ -288,21 +255,29 @@ class Admin extends Controller
     }
     public function customerView()
     {
-        if($this->session->has("email"))
-        {
-
-            $EMAIL = $this->session->get('email');
-            $userdata = $this->loginModel->verifyEmail($EMAIL);
+        if($this->session->get("roleid")=="1"){
+            $data['role'] = $this->session->get("roleid");
+            $data['email'] = $this->session->get("email");
+            $data['page'] = "customerView";
+            $userdata = $this->loginModel->verifyEmail($data['email']);
             $UID = intval($_GET['id']);
             $details = $this->loginModel->getDetails($UID);
             $pid = $details['PID'];
-			$projectdata = $this->projectModel->projectDetails($UID);
+            $projectdata = $this->projectModel->projectDetails($UID);
             $ZC_PO_ID = $projectdata['ZC_PO_ID'];
+            //Edit by Vatsal
+            // if(isset($projectdata['ZC_PO_ID']) && !empty($projectdata['ZC_PO_ID'])){
+            //     $ZC_PO_ID = $projectdata['ZC_PO_ID'];
+            // }
+            // else{
+            //     $ZC_PO_ID = "";
+            // }
+            
 
             $model = new CommentModel();
             $logs = $this->timingModel->displayall($UID);
             $comments = $model->get_comments($pid);
-			$token = file_get_contents("https://fahbacksym.com/FAH/get_token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9");
+            $token = file_get_contents("https://fahbacksym.com/FAH/get_token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9");
             $po_data = $this->getRecordById("Deals",$ZC_PO_ID,$token);
             $mp_images = $this->searchRecords("Magicplan_Images","((Potential:equals:".$ZC_PO_ID.")and(Type:equals:Outside Picture))",$token) ;
             
@@ -318,29 +293,31 @@ class Admin extends Controller
                     $url[$proposal['id']] = $proposal['PandaDoc_PDF'];
                 }
             }
-			if($mp_images != null  && count($mp_images) > 0 )
+            if($mp_images != null  && count($mp_images) > 0 )
             {
                 if(strlen($mp_images["data"][0]["Image_URL"])>0)
                 {
                     $mp_image_url = $mp_images["data"][0]["Image_URL"];
                 }
-				else
-            	{
-                	$mp_image_url = base_url('public/assets/images/No_Image_Available.jpg');
-            	}
+                else
+                {
+                    $mp_image_url = base_url('public/assets/images/No_Image_Available.jpg');
+                }
             }
             else
             {
                 $mp_image_url = base_url('public/assets/images/No_Image_Available.jpg');;
             }
-			$email = $po_data["Owner"]["email"];
-			$mname = $po_data["Owner"]["name"];
-            echo view('Admin/customerView',["pid"=>$pid,"comments"=>$comments,"LOGS"=>$logs,"po_data"=>$po_data,"mp_image_url"=>$mp_image_url,"email"=>$email,"name"=>$mname,"urls"=>$url]);
+            $email = $po_data["Owner"]["email"];
+            $mname = $po_data["Owner"]["name"];
+            echo view('templates/header',["data" => $data]);
+            echo view('templates/navbar',["data" => $data]);
+            echo view('Admin/customerView',["pid"=>$pid,"comments"=>$comments,"LOGS"=>$logs,"po_data"=>$po_data,"mp_image_url"=>$mp_image_url,"email"=>$data['email'],"name"=>$mname,"urls"=>$url]);
         }
-        else
-        {
-            return redirect()->to(base_url('/'));
+        else{
+            return redirect()->to(base_url('FAH'));
         }
+        
     }
     public function add_comment() 
     {

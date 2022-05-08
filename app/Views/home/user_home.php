@@ -1,62 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Customer Home</title>
-    <!-- Carousal -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    
-    <!-- End Carousal -->
-    <!-- JS -->
-    <link type="text/css" rel="stylesheet" href="<?php echo base_url(); ?>/FAH/public/assets/css/comments.css"/>
-        <script type= 'text/javascript' src="<?php echo base_url(); ?>/FAH/public/assets/js/jquery-1.9.1.min.js"></script>
-        <script type= 'text/javascript' src="<?php echo base_url(); ?>/FAH/public/assets/js/jquery-ui-1.10.3-custom.min.js"></script>
-        <script type= 'text/javascript' src="<?php echo base_url(); ?>/FAH/public/assets/js/jquery_blockUI.js"></script>
-        <script type= 'text/javascript' src="<?php echo base_url(); ?>/FAH/public/assets/js/comments_blog.js"></script>
-        <script type= 'text/javascript' src="<?php echo base_url(); ?>/FAH/public/assets/js/header.js"></script>
-        <script type= 'text/javascript' src="<?php echo base_url(); ?>/FAH/public/assets/js/logger.js"></script>
-   
-<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> -->
-<script type="text/javascript" src="../public/assets/js/header.js"></script>
-<script type="text/javascript" src="../public/assets/js/lightslider.js"></script>
-    <link rel="stylesheet" href="../public/assets/css/style.css">
-    <link type="text/css" rel="stylesheet" href="../public/assets/css/lightslider.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-<body>
-    <nav class="navbar navbar-light">
-        <div class="container cust-border bg-white">
-            <a class="navbar-brand">
-                <img src="../public/assets/images/logofah.png" alt="" width="100" height="85" class="d-inline-block align-text-top img-fluid">   
-            </a>
-            <p id="user" hidden><?= esc($email)?></p>
-			<div class="d-flex flex-column me-auto">
-                <span class="me-auto">Contact Us</span>
-                <span>NY: <a href="tel:+1(914)4494190" class="cuslink">914-449-4190</a></span>
-                <span>NJ: <a href="tel:+1(201)5617366 "class="cuslink">201-561-7366</a></span>
-            </div>
-            <div class="justify-content-between d-flex me-2">
-                <div class="me-1 p-2" style="border-right: 1px #c8c9ca solid;"><strong>Customer Engagement Manager</strong>
-					<div class="d-flex">
-            		<a href = "mailto: <?=$email?>"><i class='fa fa-envelope' aria-hidden="true" style="font-size: 15.5px; padding-top:5px; color: #717171;"></i></a><span style="margin-left:5px;"><?=$name?></span>:<a class="cuslink" href="tel:contact">123456789</a>
-					</div>
-				</div>
-            	<div class="me-3 p-2"><strong>Customer Success Manager</strong><br>
-					<div class="d-flex">
-            		<a href = "mailto: <?=$email?>"><i class='fa fa-envelope' aria-hidden="true" style="font-size: 15.5px; padding-top:5px; color: #717171;"></i></a><span style="margin-left:5px;"><?=$name?></span>:<a class="cuslink" href="tel:contact">123456789</a>
-					</div>
-				</div>
-            </div>
-            <button id="logout" type="button" class="btn custbtn" style="" ><a href="<?= base_url('Login/logout');?>" style="color:white;">Logout</a></button>
-        </div>
-    </nav>
-
 <div class="container mt-1">
     <div class="row">
         <div class=" col-lg-3 col-md-12 bg-white cust-right-border p-3">
@@ -146,7 +87,7 @@
         </div>
 
         <div class="col-lg-6 col-md-12 bg-white ml-2 cust-right-border text-center p-3">
-        <img id="img-high" src="<?=$mp_image_url?>" onerror="this.onerror=null; this.src=<?= base_url('public/assets/images/No_Image_Available.jpg')?>" alt="" class="img-fluid" class="img-fluid" style="width:600px; height:435px;">
+        <img id="img-high" src="<?=$mp_image_url?>" onerror="this.onerror=null; this.src=<?= base_url('/public/assets/images/No_Image_Available.jpg')?>" alt="" class="img-fluid" class="img-fluid" style="width:600px; height:435px;">
             <!-- <div class="mt-2 container">
                 <div class="mt-3 p-0">
                     <ul id="light-slider" class="image-fluid">
