@@ -22,6 +22,22 @@ class UserHome extends Controller
         $this->commentModel = new CommentModel();
         $this->vendorModel = new vendorModel();
         $this->session = session();
+        if($this->session->get('email') != '')
+        {
+            if($this->session->get('roleid') == 1){
+                return redirect()->to(base_url('FAH/Admin/index'));
+            }
+            if($this->session->get('roleid') == 2){
+                return redirect()->to(base_url('FAH/UserHome/vendor_home'));
+            }
+            if($this->session->get('roleid') == 3){
+                return redirect()->to(base_url('FAH/UserHome/user_home'));
+            }
+        }
+        else
+        {
+            echo view('Login/user');
+        }
     }
     // public function check(){
     //     if($this->session->get('email') == '' && $this->session->get('roleid') == '' && $this->session->get('roleid') != '2' && $this->session->get('roleid') != '3'){
@@ -165,17 +181,11 @@ class UserHome extends Controller
                         $result = $this->timingModel->timeclick($UID,$email,$logged_in_time,$clicked='login');
 
                         if($userdata['RID'] == '3')
-                        {
                             return redirect()->to(base_url('FAH/UserHome/user_home'));
-                        }
                         else if($userdata['RID'] == '2')
-                        {
                             return redirect()->to(base_url('FAH/UserHome/vendor_home'));
-                        }
                         else if($userdata['RID'] == '1')
-                        {
-                                return redirect()->to(base_url('FAH/Admin/index'));
-                        }
+                            return redirect()->to(base_url('FAH/Admin/index'));
                      
                     }
                     else
@@ -353,10 +363,7 @@ class UserHome extends Controller
                 {
                     $this->session->setTempdata('errorvendhome','Sorry! Something Went Wrong While Proposing New Price  : '.$json_for_update_response['data'][0]["message"] ,3);
                     return redirect()->to(base_url('FAH/UserHome/vendor_home')); 
-                }    
-
-
-
+                }
             
             }
             else
@@ -483,6 +490,7 @@ class UserHome extends Controller
                     if(isset($cus_field["value"]) && !empty($cus_field["value"]))
                     {
                         $proj_data["Vendor Invoice Url"] = $cus_field["value"];
+                        // print_r($task_data["custom_fields"]);
                     }
                     else
                     {
@@ -495,6 +503,7 @@ class UserHome extends Controller
             {
                 echo view("templates/header", ["data" => $data]);
                 echo view("home/project_home", ["ZC_PO_ID"=>$ZC_PO_ID, "task_data"=>$task_data,"proj_data"=>$proj_data]);
+                // print_r($task_data["custom_fields"]);
             }
             else
             {

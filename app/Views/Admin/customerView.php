@@ -61,7 +61,7 @@
             <div class="row">
                 <div class="col-12 bg-white">
                     <?php $i=1; foreach($urls as $url){ ?>
-					<a data-bs-toggle="modal" data-bs-target="#prop<?=$i?>" class="float-none p-1" onclick="proptime('prop')" data-bs-toggle="tooltip" data-bs-placement="top" title="Proposal-<?=$i?>"><img src="<?= base_url('public/assets/images/proposal.png');?>" alt="" width="30" height="20" class="d-inline-block align-text-top img-fluid"></a>
+					<a data-bs-toggle="modal" data-bs-target="#prop<?=$i?>" class="float-none p-1" onclick="proptime('prop')" data-bs-toggle="tooltip" data-bs-placement="top" title="Proposal-<?=$i?>"><img src="<?= base_url('../public/assets/images/proposal.png');?>" alt="" width="30" height="20" class="d-inline-block align-text-top img-fluid"></a>
 					<div class="modal fade" id="prop<?=$i?>" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 						<div class="modal-dialog modal-xl">
 							<div class="modal-content">
@@ -84,7 +84,7 @@
         </div>
 
         <div class="col-lg-6 col-md-12 bg-white ml-2 cust-right-border text-center p-3">
-            <img id="img-high" src="<?=$mp_image_url?>" onerror="this.onerror=null; this.src=<?= base_url('public/assets/images/No_Image_Available.jpg')?>" alt="" class="img-fluid" class="img-fluid" style="width:600px; height:435px;">
+            <img id="img-high" src="<?=$mp_image_url?>" onerror="this.onerror=null; this.src='../public/assets/images/No_Image_Available.jpg'" alt="" class="img-fluid" class="img-fluid" style="width:600px; height:435px;">
         <!-- <div class="mt-2 container"> -->
 
 <!-- Start Carousal -->

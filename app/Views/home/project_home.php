@@ -76,7 +76,6 @@
                 <button style="line-height: 1;" id="doc_pre_view" data-key="Vendor Invoice" data-src="<?=$proj_data["Vendor Invoice Url"]?>" type="submit" name="submit" class="btn" data-bs-toggle="modal" data-bs-target="#preview_modal">
                     <i class="fa fa-file-pdf-o fa-5x" style="color: red;" aria-hidden="true"></i>
                 </button>  
-
                 </div>
             </div>
         </div>
