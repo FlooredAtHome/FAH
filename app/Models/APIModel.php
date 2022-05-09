@@ -24,4 +24,11 @@ class APIModel extends Model
         $status = $this->db->query($insertQuery);
 
     }
+    public function getUserData($email,$zcpoid){
+        $db = \Config\Database::connect();
+        $sql = "SELECT UID FROM users WHERE EMAIL='$email';";
+        $result = $this->db->query($sql);
+        $result = $result->getRowArray();
+        return $result["UID"];
+    }
 }

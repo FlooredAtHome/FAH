@@ -7,6 +7,7 @@ use App\Models\APIModel;
 use App\Models\APILoginModel;
 use CodeIgniter\RESTful\ResourceController;
 use \Firebase\JWT\JWT;
+use CodeIgniter\I18n\Time;
 
 class FahAPI extends ResourceController
 {
@@ -101,35 +102,35 @@ class FahAPI extends ResourceController
         }
     }
 
-    public function create()
+    public function create($role = '')
     {
+        if($role == '2' || $role == '3'){
         $key = $this->getKey();
         $authHeader = $this->request->getHeader("Authorization");
         $authHeader = $authHeader->getValue();
         $token = $authHeader;
-
+    
         try {
             $decoded = JWT::decode($token, $key, array("HS256"));
-
             if ($decoded) {
-
-                $rules = [
-                    'first_name' => 'required',
-                    'last_name' => 'required',
-                    'email' => 'required|is_unique[users.EMAIL]|valid_email',
-                    'zcpoid' => 'required'
-                ];
+                    // print_r($decoded);
+                // $rules = [
+                //     'first_name' => 'required',
+                //     'last_name' => 'required',
+                //     'email' => 'required|is_unique[users.EMAIL]|valid_email',
+                //     'zcpoid' => 'required'
+                // ];
         
-                if(!$this->validate($rules))
-                {
-                    return $this->fail($this->validator->getErrors());
-                }
-                else
-                {
+                // if(!$this->validate($rules))
+                // {
+                //     return $this->fail($this->validator->getErrors());
+                // }
+                // else
+                // {
                     $userdata = [
                         'FIRST_NAME' => $this->request->getVar('first_name'),
                         'LAST_NAME' => $this->request->getVar('last_name'),
-                        'RID' => '3',
+                        'RID' => $role,
                         'EMAIL' => $this->request->getVar('email')
                     ];
                     $projectdata = [
@@ -139,15 +140,57 @@ class FahAPI extends ResourceController
                     $model = new APIModel();
                     $model->save($userdata);
                     $model->insertId($userdata['EMAIL'],$projectdata['ZC_PO_ID']);
-                    $message = [
-                        'status' => 201,
-                        'message' => 'User inserted successfully'
-                    ];
-                    return $this->respondCreated($message);
+                    $token = $model->getUserData($userdata['EMAIL'],$projectdata['ZC_PO_ID']);
+                    // EMAIL on Create
+                    $to = $userdata["EMAIL"];
+                    $subject = 'Reset Password Link';
+                    $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].','.'<br><br>'
+                            . 'Your FAH account has been created. In order to access the account, please verify within 60 minutes. Please click '
+                            . 'the below link to setup your account.<br><br>'
+                            . '<a href="'.base_url().'/FAH/Login/change_pwd/'.$token.'">Click here to reset password</a><br><br>'
+                            . 'Thanks<br>Floored At Home';
+                            
+                    $email = \Config\Services::email();
+                    $email->setTo($to);
+                    $email->setFrom('vaghasia84@gmail.com','Floored At Home');
+                    $email->setSubject($subject);
+                    $email->setMessage($message);
+                    // $email->attach('C:\Users\PD\Downloads\users.pdf');
+                    print_r($userdata["EMAIL"]);
+                    if($email->send())
+                    {
+                        $message = [
+                            'status' => 201,
+                            'message' => 'User inserted successfully'
+                        ];
+                        return $this->respondCreated($message);
+                    }
+                    else
+                    {
+                        $response = [
+                            'status' => 502,
+                            'error' => true,
+                            'messages' => 'Bad Gateway',
+                            'data' => []
+                        ];
+                        return $this->respondCreated($response);
+                    }
+                    
                 }
-            }
+                // print_r($userdata["EMAIL"]);
+            // }
         } catch (Exception $ex) {
           
+            $response = [
+                'status' => 405,
+                'error' => true,
+                'messages' => 'Access denied',
+                'data' => []
+            ];
+            return $this->respondCreated($response);
+        }
+        }
+        else{
             $response = [
                 'status' => 401,
                 'error' => true,
@@ -156,6 +199,5 @@ class FahAPI extends ResourceController
             ];
             return $this->respondCreated($response);
         }
-        
     }
 }

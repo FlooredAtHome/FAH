@@ -37,7 +37,8 @@ class Login extends Controller
     // }
     public function reset_password_view()
     {
-        return view("Login/reset_password_view");
+        echo view("templates/header");
+        echo view("Login/reset_password_view");
     }
     public function verify()
     {

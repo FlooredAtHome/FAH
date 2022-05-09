@@ -38,8 +38,9 @@ class Reset extends Controller
         $uid= $this->request->getPost('uid');
         $npass = $this->request->getPost('npwd');
         $cpass = $this->request->getPost('cpwd');
+        $error = "Changed Password Successfully";
         if($npass == null || $cpass==null){
-            echo "Fatal Error";
+            echo "Render Error Page";
         }
         else{
             $data = $this->loginModel->updatepass($npass,$uid);

@@ -34,10 +34,6 @@ class UserHome extends Controller
                 return redirect()->to(base_url('FAH/UserHome/user_home'));
             }
         }
-        else
-        {
-            echo view('Login/user');
-        }
     }
     // public function check(){
     //     if($this->session->get('email') == '' && $this->session->get('roleid') == '' && $this->session->get('roleid') != '2' && $this->session->get('roleid') != '3'){
@@ -70,7 +66,6 @@ class UserHome extends Controller
     {
         if($this->session->get('email') != '')
         {
-            print_r($this->session->get('roleid'));
             if($this->session->get('roleid') == 1){
                 return redirect()->to(base_url('FAH/Admin/index'));
             }
@@ -114,13 +109,19 @@ class UserHome extends Controller
                         . 'Thanks<br>Floored At Home';
                 $email = \Config\Services::email();
                 $email->setTo($to);
-                $email->setFrom('fahresethelp@gmail.com','Floored At Home');
+                $email->setFrom('vaghasia84@gmail.com','Floored At Home');
                 $email->setSubject($subject);
                 $email->setMessage($message);
-                $email->attach('C:\Users\PD\Downloads\users.pdf');
-                if($email->Send())
+                // $email->attach('C:\Users\PD\Downloads\users.pdf');
+                print_r($email);
+                if($email->send())
                 {
                     $this->session()->setTempdata('success','Reset password link sent to your registerd email. Please verify within 60 minutes.',3);
+                    return redirect()->to(base_url('FAH/Login/reset_password_view'));
+                }
+                else
+                {
+                    $this->session->setTempdata('error','Unable to update. Please try again',3);
                     return redirect()->to(base_url('FAH/Login/reset_password_view'));
                 }
             }

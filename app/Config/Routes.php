@@ -17,11 +17,11 @@ if (file_exists(SYSTEMPATH . 'Config/Routes.php')) {
  * --------------------------------------------------------------------
  */
 $routes->setDefaultNamespace('App\Controllers');
-$routes->setDefaultController('Login');
-$routes->setDefaultMethod('user');
-$routes->setTranslateURIDashes(false);
-$routes->set404Override();
-$routes->setAutoRoute(true);
+// $routes->setDefaultController('UserHome');
+// $routes->setDefaultMethod('user');
+// $routes->setTranslateURIDashes(false);
+// $routes->set404Override();
+// $routes->setAutoRoute(true);
 
 /*
  * --------------------------------------------------------------------
@@ -34,8 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'UserHome::user');
 
 $routes->group("api", function ($routes) {
-
-    $routes->post("insert", "FahAPI::create");
+    $routes->post("insert/(:any)", "FahAPI::create/$1");
     $routes->post("login", "FahAPI::login");
 });
 /*
