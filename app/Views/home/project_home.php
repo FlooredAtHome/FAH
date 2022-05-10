@@ -1,15 +1,14 @@
-<body>
+<!-- <body>
 
     <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container cust-border bg-white">
-            <a class="navbar-brand"  href="<?php echo base_url("FAH")?>">
+            <a class="navbar-brand"  href="<#?php echo base_url("FAH")?>">
                 <img src="../../public/assets/images/logofah.png" alt="" width="100" height="85" class="d-inline-block align-text-top img-fluid">   
             </a>
             <button type="button" class="btn custbtn" style="" ><a class="text-decoration-none" href="<#?= base_url('FAH/Login/logout');?>" style="color:white;">Logout</a></button>
             
         </div>
-    </nav>
-
+    </nav> -->
     <div class="accordion container mt-1" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
             <h2 class="accordion-header" id="project_detials">

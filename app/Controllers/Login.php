@@ -125,6 +125,8 @@ class Login extends Controller
         // else{
         //     echo "Error";
         // }
+        $data["role"] = '0';
+        echo view('templates/header');
         echo view('Login/change_pwd', ["uid"=>$uid]);
     }
     public function update_password(){

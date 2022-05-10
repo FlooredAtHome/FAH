@@ -25,20 +25,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
 
 
-
+    <!--  -->
     <!-- Font Awesome -->
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Javascript -->
 
-    <script type= 'text/javascript' src="../public/assets/js/jquery-1.9.1.min.js"></script>
+    <!-- <script type= 'text/javascript' src="../public/assets/js/jquery-1.9.1.min.js"></script>
     <script type= 'text/javascript' src="../public/assets/js/jquery-ui-1.10.3-custom.min.js"></script>
     <script type= 'text/javascript' src="../public/assets/js/jquery_blockUI.js"></script>
     <script type= 'text/javascript' src="../public/assets/js/comments_blog.js"></script>
     <script type= 'text/javascript' src="../public/assets/js/logger.js"></script>
-    <script type="text/javascript" src="../public/assets/js/header.js"></script>
-    <script type="text/javascript" src="../public/assets/js/lightslider.js"></script>
+    <script type="text/javascript" src="../public/assets/js/header.js"></script> -->
+    <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/jquery-1.9.1.min.js")?>></script>
+    <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/jquery-ui-1.10.3-custom.min.js")?>></script>
+    <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/jquery_blockUI.js")?>></script>
+    <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/comments_blog.js")?>></script>
+    <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/logger.js")?>></script>
+    <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/header.js")?>></script>
+    <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/lightslider.js")?>></script>
 
     <?php if(isset($data["role"])){
         if($data["role"]=="2"){?>
@@ -78,10 +84,10 @@
     <?php } } ?>
     <!-- CSS -->
 
-    <link type="text/css" rel="stylesheet" href="../public/assets/css/comments.css"/>
+    <link type="text/css" rel="stylesheet" href=<?php echo base_url("FAH/public/assets/css/comments.css")?>/>
     <link rel="stylesheet" href=<?= base_url('FAH/public/assets/css/style.css'); ?>>
     <!-- <link rel="stylesheet" href="../public/assets/css/style.css"> -->
-    <link type="text/css" rel="stylesheet" href="../public/assets/css/lightslider.css" />
+    <link type="text/css" rel="stylesheet" href=<?php echo base_url("FAH/public/assets/css/lightslider.css")?> />
 
 
     <!-- style customerView -->
@@ -93,5 +99,5 @@
     </style>
 
     <!-- Images -->
-    <link rel = "icon" href="../public/assets/images/logofah.png" type = "image/x-icon">
+    <link rel = "icon" href=<?= base_url('FAH/public/assets/images/logofah.png'); ?> type = "image/x-icon">
 </head>

@@ -3,13 +3,13 @@
         <div class="container cust-border bg-white">
             <!-- Logo Image -->
             <a class="navbar-brand" href="<?php echo base_url("FAH")?>">
-                <img src="../public/assets/images/logofah.png" alt="" width="100" height="85" class="d-inline-block align-text-top img-fluid">   
+                <img src=<?php echo base_url("FAH/public/assets/images/logofah.png");?> alt="" width="100" height="85" class="d-inline-block align-text-top img-fluid">   
             </a>
 
             <!-- Navigation bar By role Check -->
 
-            <?php if($data["role"] == "1") {
-                if(!empty($data["page"]) && $data["page"] != "customerView"){
+            <?php if($data["role"] == "1" && $data["page"] != "customerView" && $data["page"] != "vendorView") {
+                // if(empty($data["page"]) || $data["page"] != "customerView" && $data["page"] != "vendorView"){
                 ?>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -20,8 +20,8 @@
                     <button class="nav-link act" onclick="showButton()" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" style="color:#182c6d;">Vendors</button>
                 </div>
             </div>
-            <?php } } 
-            elseif($data["role"] == "2"){?>
+            <?php  } 
+            elseif($data["role"] == "2" && $data["page"] != "vendorView"|| $data["role"] == "1" && $data["page"] == "vendorView"){?>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

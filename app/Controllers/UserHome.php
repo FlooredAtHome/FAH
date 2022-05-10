@@ -384,7 +384,7 @@ class UserHome extends Controller
         if($this->session->get('email')!='')
         {
             $task_data =  $this->getClickuptask($id);
-            $data['role'] = $this->session->get("roleid");
+            $data["role"] = $this->session->get("roleid");
             $cus_fields = $task_data["custom_fields"];
             $proj_data =  [];
 
@@ -503,6 +503,7 @@ class UserHome extends Controller
             if(isset($ZC_PO_ID) && !empty($ZC_PO_ID))
             {
                 echo view("templates/header", ["data" => $data]);
+                echo view("templates/navbar");
                 echo view("home/project_home", ["ZC_PO_ID"=>$ZC_PO_ID, "task_data"=>$task_data,"proj_data"=>$proj_data]);
                 // print_r($task_data["custom_fields"]);
             }
@@ -686,6 +687,7 @@ class UserHome extends Controller
             $EMAIL = $this->session->get('email');
             $userdata = $this->loginModel->verifyEmail($EMAIL);
             $data["role"] = $this->session->get('roleid');
+            $data["page"] = "";
             $data['email'] = $this->session->get('email');
             $data['logged_in_time']= $this->session->get('logged_in_time');
             $email=$data['email'];

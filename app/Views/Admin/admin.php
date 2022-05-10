@@ -160,7 +160,7 @@
                     <tr>
                     <td class="text-center">
                         <button id="uidpass" data-uid="<?=$values['UID']?>" data-fid="<?=$values['FIRST_NAME']?>" data-lid="<?=$values['LAST_NAME']?>" data-eid="<?=$values['EMAIL']?>" type="submit" name="submit" class="btn custbtn">View</button>
-                        <button type="submit" name="submit" class="btn custbtn"><a class="text-decoration-none" href="customerView?id=<?=$values['UID']?>" style="color:white;">View</a></button>
+                        <button type="submit" name="submit" class="btn custbtn"><a class="text-decoration-none" href="vendorView?id=<?=$values['UID']?>" style="color:white;">View</a></button>
 
                     
                     </td>

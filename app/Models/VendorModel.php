@@ -17,6 +17,15 @@ class VendorModel extends Model
         $customers = $customers->getResultArray();
         return $customers;
     }
+
+    public function getUserData($uid){
+        $db = \Config\Database::connect();
+        $sql = "SELECT * FROM users WHERE UID='$uid';";
+        $result = $this->db->query($sql);
+        $result = $result->getRowArray();
+        return $result;
+    }
+
     public function vendorUpdates($UID,$FIRST_NAME,$LAST_NAME,$EMAIL)
     {
         $db = \Config\Database::connect();

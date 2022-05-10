@@ -87,11 +87,7 @@
         </div>
 
         <div class="col-lg-6 col-md-12 bg-white ml-2 cust-right-border text-center p-3">
-<<<<<<< HEAD
         <img id="img-high" src="<?=$mp_image_url?>" onerror="this.onerror=null; this.src=<?= base_url('/public/assets/images/No_Image_Available.jpg')?>" alt="" class="img-fluid" class="img-fluid" style="width:600px; height:435px;">
-=======
-        <img id="img-high" src="<?=$mp_image_url?>" onerror="this.onerror=null; this.src='../public/assets/images/No_Image_Available.jpg'" alt="" class="img-fluid" class="img-fluid" style="width:600px; height:435px;">
->>>>>>> 3561cccdd4696a530de6126e973f47524e37e282
             <!-- <div class="mt-2 container">
                 <div class="mt-3 p-0">
                     <ul id="light-slider" class="image-fluid">

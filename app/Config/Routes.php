@@ -36,6 +36,7 @@ $routes->get('/', 'UserHome::user');
 $routes->group("api", function ($routes) {
     $routes->post("insert/(:any)", "FahAPI::create/$1");
     $routes->post("login", "FahAPI::login");
+    $routes->post("view/(:any)", "FahAPI::view/$1");
 });
 /*
  * --------------------------------------------------------------------
