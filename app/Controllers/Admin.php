@@ -3,6 +3,7 @@
 namespace App\Controllers;
 use App\Models\CustomerModel;
 use App\Models\VendorModel;
+use App\Models\ResetTokenModel;
 use App\Models\LoginModel;
 use App\Models\ProjectModel;
 use App\Models\TimingModel;
@@ -20,6 +21,7 @@ class Admin extends Controller
     function __construct() 
     {
         $this->rc = new ResourceController();
+        $this->resetToken = new ResetTokenModel();
         $this->loginModel = new LoginModel();
         $this->customerModel = new CustomerModel();
         $this->vendorModel = new VendorModel();
@@ -29,17 +31,18 @@ class Admin extends Controller
         $this->session = session();
         
     }
-    public function check(){
-        if($this->session->get('email') == '' && $this->session->get('roleid') == '' || $this->session->get('roleid') != '1'){
-            $this->session->destroy();
-            echo view('Login/user');
-            exit;
-        }
-    }
+    // public function check(){
+    //     if($this->session->get('email') == '' && $this->session->get('roleid') == '' || $this->session->get('roleid') != '1'){
+    //         $this->session->destroy();
+    //         echo view('Login/user');
+    //         exit;
+    //     }
+    // }
     public function index()
     {
             $data["email"] = $this->session->get('email');
             $data["role"] = $this->session->get('roleid');
+            $data["page"] = "";
             $customerdata = $this->customerModel->customerDetails($data["email"]);
             $vendordata = $this->vendorModel->vendorDetails($data["email"]);
             echo view("templates/header");
@@ -119,7 +122,7 @@ class Admin extends Controller
             }
         }
     }
-    public function resetpasswordcustomerLink()
+    public function reset_password_via_admin()
     {
         if($this->request->getMethod() == 'post')
         {
@@ -132,15 +135,18 @@ class Admin extends Controller
                 {
                     $to = $EMAIL;
                     $subject = 'Reset Password Link';
-                    $token = $userdata['UID'];
+                    $token = substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 50);
+                    $this->resetToken->saveToken($token,$userdata['UID']);
+                    
+                    $uid = $userdata['UID'];
                     $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].'<br><br>'
                             . 'Your reset password request has been  received. Please click'
                             . 'the below link to reset your password.<br><br>'
-                            . '<a href="'.base_url('/login/reset_password()').''.$token.'">Click here to reset password</a><br><br>'
+                            . '<a href="'.base_url('FAH/UserHome/change_pwd').'/'.$uid.'/'.$token.'">Click here to reset password</a><br><br>'
                             . 'Thanks<br>Floored At Home';
                     $EMAIL = \Config\Services::email();
                     $EMAIL->setTo($to);
-                    $EMAIL->setFrom('maheksavanicoc1@gmail.com','Floored At Home');
+                    $EMAIL->setFrom('vaghasia84@gmail.com','Floored At Home');
                     $EMAIL->setSubject($subject);
                     $EMAIL->setMessage($message);
                     if($EMAIL->send())
@@ -184,7 +190,7 @@ class Admin extends Controller
                 $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].'<br><br>'
                         . 'Your reset password request has been  received. Please click'
                         . 'the below link to reset your password.<br><br>'
-                        . '<a href="'.base_url('/login/reset_password()').''.$token.'">Click here to reset password</a><br><br>'
+                        . '<a href="'.base_url('/UserHome/change_pwd').''.$token.'">Click here to reset password</a><br><br>'
                         . 'Thanks<br>Floored At Home';
                 $EMAIL = \Config\Services::email();
                 $EMAIL->setTo($to);
@@ -633,55 +639,6 @@ class Admin extends Controller
         $rep = $temp1[0]["rep"];
         var_dump($rep);
     }
-
-    // public function vendorView()
-    // {
-    //     if($this->session->has("email"))
-    //     {
-
-    //         $EMAIL = $this->session->get('email');
-    //         $userdata = $this->loginModel->verifyEmail($EMAIL);
-    //         $UID = intval($_GET['id']);
-    //         $details = $this->loginModel->getDetails($UID);
-    //         $pid = $details['PID'];
-	// 		$projectdata = $this->projectModel->projectDetails($UID);
-    //         $ZC_PO_ID = $projectdata['ZC_PO_ID'];
-    //         $model = new CommentModel();
-    //         $logs = $this->timingModel->displayall($UID);
-    //         $comments = $model->get_comments($pid);
-	// 		$token = file_get_contents("https://fahbacksym.com/FAH/get_token.php?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9");
-    //         $po_data = $this->getRecordById("Deals",$ZC_PO_ID,$token);
-    //         $mp_images = $this->searchRecords("Magicplan_Images","((Potential:equals:".$ZC_PO_ID.")and(Type:equals:Outside Picture))",$token) ;
-    //         $proposals = $this->searchRecords("Quotes","(Deal_Name:equals:".$ZC_PO_ID.")",$token);
-    //         $proposal = [];
-    //         $url = [];
-    //         foreach($proposals['data'] as $proposal)
-    //         {
-    //             if($proposal['Ready_To_Send']!=NULL)
-    //             {
-    //                 $url[$proposal['id']] = $proposal['PandaDoc_PDF'];
-    //             }
-    //         }
-	// 		if(count($mp_images) > 0 )
-    //         {
-    //             if(strlen($mp_images["data"][0]["Image_URL"])>0)
-    //             {
-    //                 $mp_image_url = $mp_images["data"][0]["Image_URL"];
-    //             }
-	// 			else
-    //         	{
-    //             	$mp_image_url = base_url('public/assets/images/No_Image_Available.jpg');
-    //         	}
-    //         }
-	// 		$email = $po_data["Owner"]["email"];
-	// 		$mname = $po_data["Owner"]["name"];
-    //         echo view('Admin/customerView',["pid"=>$pid,"comments"=>$comments,"LOGS"=>$logs,"po_data"=>$po_data,"mp_image_url"=>$mp_image_url,"email"=>$email,"name"=>$mname,"urls"=>$url]);
-    //     }
-    //     else
-    //     {
-    //         return redirect()->to(base_url('/'));
-    //     }
-    // }
 }
 
 ?>

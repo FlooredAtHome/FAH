@@ -5,7 +5,7 @@
             <a class="navbar-brand" href="<?php echo base_url("FAH")?>">
                 <img src=<?php echo base_url("FAH/public/assets/images/logofah.png");?> alt="" width="100" height="85" class="d-inline-block align-text-top img-fluid">   
             </a>
-
+            
             <!-- Navigation bar By role Check -->
 
             <?php if($data["role"] == "1" && $data["page"] != "customerView" && $data["page"] != "vendorView") {
@@ -16,8 +16,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <div class="nav nav-tabs" id="nav-tab" role="tablist" style="margin-right: auto;">
-                    <button class="nav-link act active actived" onclick="hideButton()" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" style="color:#182c6d;">Customers</button>
-                    <button class="nav-link act" onclick="showButton()" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" style="color:#182c6d;">Vendors</button>
+                    <button class="nav-link act active actived" id="nav-customer-tab" data-bs-toggle="tab" data-bs-target="#nav-customer" type="button" role="tab" aria-controls="nav-customer" aria-selected="true" style="color:#182c6d;">Customers</button>
+                    <button class="nav-link act" id="nav-vendor-tab" data-bs-toggle="tab" data-bs-target="#nav-vendor" type="button" role="tab" aria-controls="nav-vendor" aria-selected="false" style="color:#182c6d;">Vendors</button>
                 </div>
             </div>
             <?php  } 
@@ -53,12 +53,13 @@
             </div>
             <?php } ?>
                 <!-- Logout Button -->
-                <div class="d-flex align-items-center">
-                    <?php if($data["role"]=="2" || $data["role"]=="3") {?>
-                    <button type="submit" id="addVendor" name="submit" class="btn custbtn float-end hidden" data-bs-toggle="modal" data-bs-target="#vendorInsert" style="margin-right: 30px; margin-bottom: 24px;">Add Vendor</button>
+                <div class="d-flex">
+                    <?php if($data["role"]=="1") {?>
+                        <button class="btn btn-primary me-5" id = "addVendor" data-bs-toggle="modal" data-bs-target="#vendorInsert">Add Vendor</button>
+                    <!-- <button type="submit" id="addVendor" name="submit" class="btn custbtn float-end hidden" data-bs-toggle="modal" data-bs-target="#vendorInsert" style="margin-right: 30px; margin-bottom: 24px;">Add Vendor</button> -->
                     <?php } ?>
                     <!-- <div class="pt-3 d-flex flex-column align-items-center"> -->
-                        <button type="button" class="btn custbtn" style="" ><a class="text-decoration-none" href="<?= base_url('FAH/UserHome/logout');?>" style="color:white;">Logout</a></button>
+                        <button type="button" class="btn btn-danger ml-2" style="" ><a class="text-decoration-none" href="<?= base_url('FAH/UserHome/logout');?>" style="color:white;">Logout</a></button>
                     <!-- </div> -->
                 </div>
             </div>

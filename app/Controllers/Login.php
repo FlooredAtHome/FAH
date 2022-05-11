@@ -116,15 +116,6 @@ class Login extends Controller
 
 
     public function change_pwd($uid){
-        // $uemail = $this->input->get('email');
-        $uid = $uid;
-        // $data = $this->loginModel->pwd_change_verify($uemail,$uid);
-        // if($data){
-        //     echo view(base_url('Login/change_pwd'),$uid);
-        // }
-        // else{
-        //     echo "Error";
-        // }
         $data["role"] = '0';
         echo view('templates/header');
         echo view('Login/change_pwd', ["uid"=>$uid]);

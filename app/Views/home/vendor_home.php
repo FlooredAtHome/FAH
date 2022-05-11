@@ -90,10 +90,6 @@
 
                 $("#upload_modal #v_id").val( $(this).data('v-id') );
                 $("#upload_modal #field").val( $(this).data('key') );
-
-
-
-
             });
         </script>
     </div>        
@@ -256,29 +252,9 @@
     </div>
 </div>
 <script>
-    // Add active class to the current button (highlight it)
-    var header = document.getElementById("nav-tab");
-    var btns = header.getElementsByClassName("act");
-    console.log(btns.length);
-    for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("actived");
-    current[0].className = current[0].className.replace(" actived", "");
-    this.className += " actived";
-    });
-    }
-
-    
-
-    
-    
-</script>
-    <script>
     $(document).ready( function () 
     {
         $('#vendor_proj_list').DataTable({  responsive: true});
-
-
         $('#vendor_prod_list').DataTable({
             responsive: true
         });
@@ -295,9 +271,6 @@
 
         });
     });
-
-
-
 </script>
 
 </body>

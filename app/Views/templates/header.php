@@ -32,12 +32,6 @@
 
     <!-- Javascript -->
 
-    <!-- <script type= 'text/javascript' src="../public/assets/js/jquery-1.9.1.min.js"></script>
-    <script type= 'text/javascript' src="../public/assets/js/jquery-ui-1.10.3-custom.min.js"></script>
-    <script type= 'text/javascript' src="../public/assets/js/jquery_blockUI.js"></script>
-    <script type= 'text/javascript' src="../public/assets/js/comments_blog.js"></script>
-    <script type= 'text/javascript' src="../public/assets/js/logger.js"></script>
-    <script type="text/javascript" src="../public/assets/js/header.js"></script> -->
     <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/jquery-1.9.1.min.js")?>></script>
     <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/jquery-ui-1.10.3-custom.min.js")?>></script>
     <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/jquery_blockUI.js")?>></script>
@@ -46,14 +40,16 @@
     <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/header.js")?>></script>
     <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/lightslider.js")?>></script>
 
+
+    <!-- jQuery Datatable -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/dataTables.jqueryui.min.css"/>
+    <script type="text/javascript" src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
     <?php if(isset($data["role"])){
         if($data["role"]=="2"){?>
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.1/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.3/css/dataTables.jqueryui.min.css"/>
     <link rel="stylesheet" type="text/css" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"/>
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
-    <script type="text/javascript" src="https://cdn.datatables.net/1.11.3/js/dataTables.jqueryui.min.js"></script>
     <script src="https://use.fontawesome.com/9538db27f4.js"></script>
     
     <style>
@@ -64,14 +60,14 @@
         display: none;
     }
     th, td
-    {
+    /* {
         padding: 15px;
         border-right: 1px solid #eddfdf;
     }
     tr
     {
         border-bottom: 1px solid #eddfdf;
-    }
+    } */
     .labels
     {
         font-weight: 700;

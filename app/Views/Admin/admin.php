@@ -1,34 +1,58 @@
 <script>
-    function showButton() {
-    var x = document.getElementById("addVendor");
-        x.style.display = "block";
-    }
-    function hideButton() {
-    var x = document.getElementById("addVendor");
-    if (x.style.display === "block") {
-        x.style.display = "none";
-    } else {
-        x.style.display = "none";
-    }
-    }
-    // Add active class to the current button (highlight it)
-    var header = document.getElementById("nav-tab");
-    var btns = header.getElementsByClassName("act");
-    console.log(btns.length);
-    for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("actived");
-    current[0].className = current[0].className.replace(" actived", "");
-    this.className += " actived";
+    $('#addVendor').hide();
+    $(document).ready( function () {
+    $('#customerlist').DataTable();
+    $('#vendorlist').DataTable();
     });
-    }
+    $(document).on("click", "#resetbtn", function (){
+    var email = $(this).data('email');
+    $("#email").val( email );
+    });
+
+    $(document).on("click", "#valueforward", function () {
+        
+        var userid = $(this).data('uid');
+        $(".modal-body #uid").val( userid );
+
+        var fvalue = $(this).data('fid');
+        $(".modal-body #fid").val( fvalue );
+
+        var lvalue = $(this).data('lid');
+        $(".modal-body #lid").val( lvalue );
+
+        var evalue = $(this).data('eid');
+        $(".modal-body #eid").val( evalue );
+    }); 
+
+    $(document).on("click", "#valuepass", function () {
+        
+        var userid = $(this).data('uid');
+        $(".modal-body #uid").val( userid );
+
+        var fvalue = $(this).data('fid');
+        $(".modal-body #fid").val( fvalue );
+
+        var lvalue = $(this).data('lid');
+        $(".modal-body #lid").val( lvalue );
+
+        var evalue = $(this).data('eid');
+        $(".modal-body #eid").val( evalue );
+    }); 
+
+    $(document).on("click","#nav-customer-tab",function(){
+        $("#addVendor").hide();
+    });
+
+    $(document).on("click","#nav-vendor-tab",function(){
+        $("#addVendor").show();
+    });
 </script>
 <!-- Customers Table -->
 
 <div class="tab-content" id="nav-tabContent">
-    <div class="tab-pane logsbody fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+    <div class="tab-pane logsbody fade show active" id="nav-customer" role="tabpanel" aria-labelledby="nav-customer-tab">
         <div class="col-12" id="logintable">
-            <div class="container table-responsive mt-1">
+            <div class="container mt-3 p-0 table-responsive mt-1">
                 <div class="row">
                 <h3>Customers Detail:</h3><br>
                 <?php if(session()->getTempdata('errorcust')): ?>
@@ -37,7 +61,7 @@
                 <?php if(session()->getTempdata('successcust')): ?>
                 <div class="alert alert-success"> <?= session()->getTempdata('successcust'); ?> </div>
                 <?php endif; ?>
-                <table id="customerlist" class="table table-bordered table-hover align-middle" style="background: white; border-radius: 2px;">
+                <table id="customerlist" class="table table-striped table-hover align-middle" style="background: white; border-radius: 2px;">
                     <thead>
                         <tr>
                         <th>View</th>
@@ -58,7 +82,7 @@
                         <td><?=$values['FIRST_NAME']?></td>
                         <td><?=$values['LAST_NAME']?></td>
                         <td><?=$values['EMAIL']?></td>
-                        <td class="text-center"><form action="resetpasswordcustomerLink" method="post">
+                        <td class="text-center"><form action="reset_password_via_admin" method="post">
                         <input type="text" name="EMAIL" value="<?=$values['EMAIL']?>" class="d-none"/>
                         <button id="resetbtn" name="submit" type="submit" class="btn custbtn">Send Mail</button>
                         </form></td>                        
@@ -100,40 +124,13 @@
                 </div>
             </div>
         </div>
-
-        <script>
-        $(document).on("click", "#resetbtn", function (){
-        var email = $(this).data('email');
-        $("#email").val( email );
-        });
-
-        $(document).on("click", "#valueforward", function () {
-            
-            var userid = $(this).data('uid');
-            $(".modal-body #uid").val( userid );
-        
-            var fvalue = $(this).data('fid');
-            $(".modal-body #fid").val( fvalue );
-
-            var lvalue = $(this).data('lid');
-            $(".modal-body #lid").val( lvalue );
-        
-            var evalue = $(this).data('eid');
-            $(".modal-body #eid").val( evalue );
-        }); 
-        </script>
-        <script>
-            $(document).ready( function () {
-            $('#customerlist').DataTable();
-        } );
-        </script>
     </div>
 </div>
 
 <!-- Vendors Table -->
 
-<div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-    <div class="container table-responsive mt-1">
+<div class="tab-pane fade" id="nav-vendor" role="tabpanel" aria-labelledby="nav-vendor-tab">
+    <div class="container mt-3 p-0 table-responsive mt-1">
         <div class="row">
             <div class="mb-2">
                 <h3>Vendors Detail:</h3>
@@ -144,7 +141,7 @@
             <?php if(session()->getTempdata('successvend')): ?>
             <div class="alert alert-success"> <?= session()->getTempdata('successvend'); ?> </div>
             <?php endif; ?>
-            <table id="vendorlist" class="table table-bordered table-hover align-middle" style="background: white; border-radius: 2px;">
+            <table id="vendorlist" class="table mt-3 table-striped table-bordered table-hover align-middle" style="background: white; border-radius: 2px;">
                 <thead>
                     <tr>
                     <th>View</th>
@@ -159,16 +156,13 @@
                 <?php for($i=0;$i<count($vendordata);$i++){ $values=$vendordata[$i]; ?>
                     <tr>
                     <td class="text-center">
-                        <button id="uidpass" data-uid="<?=$values['UID']?>" data-fid="<?=$values['FIRST_NAME']?>" data-lid="<?=$values['LAST_NAME']?>" data-eid="<?=$values['EMAIL']?>" type="submit" name="submit" class="btn custbtn">View</button>
                         <button type="submit" name="submit" class="btn custbtn"><a class="text-decoration-none" href="vendorView?id=<?=$values['UID']?>" style="color:white;">View</a></button>
-
-                    
                     </td>
                     <td class="text-center"><button id="valuepass" data-uid="<?=$values['UID']?>" data-fid="<?=$values['FIRST_NAME']?>" data-lid="<?=$values['LAST_NAME']?>" data-eid="<?=$values['EMAIL']?>" type="submit" name="submit" class="btn custbtn" data-bs-toggle="modal" data-bs-target="#vendorUpdate">Update</button></td>
                     <td><?=$values['FIRST_NAME']?></td>
                     <td><?=$values['LAST_NAME']?></td>
                     <td><?=$values['EMAIL']?></td>
-                    <td class="text-center"><form action="resetpasswordvendorLink" method="post">
+                    <td class="text-center"><form action="reset_password_via_admin" method="post">
                     <input type="text" name="EMAIL" value="<?=$values['EMAIL']?>" class="d-none"/>
                     <button id="resetbtn" name="submit" type="submit" class="btn custbtn">Send Mail</button>
                     </form>
@@ -243,32 +237,7 @@
             </div>
         </div>
     </div>
-    <script>
-    $(document).on("click", "#resetbtn", function (){
-    var email = $(this).data('email');
-    $("#email").val( email );
-    });
 
-    $(document).on("click", "#valuepass", function () {
-        
-        var userid = $(this).data('uid');
-        $(".modal-body #uid").val( userid );
-
-        var fvalue = $(this).data('fid');
-        $(".modal-body #fid").val( fvalue );
-
-        var lvalue = $(this).data('lid');
-        $(".modal-body #lid").val( lvalue );
-
-        var evalue = $(this).data('eid');
-        $(".modal-body #eid").val( evalue );
-    }); 
-    </script>
-    <script>
-        $(document).ready( function () {
-        $('#vendorlist').DataTable();
-    } );
-    </script>
 </div>
 
 </body>

@@ -23,10 +23,7 @@
                         <?php for($i=0;$i<count($customerdata);$i++){ $values=$customerdata[$i]; ?>
                         <tr>
                         <td class="text-center">
-                          <!-- <form action="customerView" method="post">
-                            <input type="text" name="UID" value="<#?=$values['UID']?>" class="d-none"/> -->
                             <button type="submit" name="submit" class="btn custbtn"><a class="text-decoration-none" href="customerView?id=<?=$values['UID']?>" style="color:white;">View</a></button>
-                          <!-- </form> -->
                         </td>
                         <td class="text-center"><button id="valueforward" data-uid="<?=$values['UID']?>" data-fid="<?=$values['FIRST_NAME']?>" data-lid="<?=$values['LAST_NAME']?>" data-eid="<?=$values['EMAIL']?>" type="submit" name="submit" class="btn custbtn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Update</button></td>
                         <td><?=$values['FIRST_NAME']?></td>

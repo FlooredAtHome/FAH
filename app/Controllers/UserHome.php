@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 use CodeIgniter\Controller;
 use App\Models\LoginModel;
+use App\Models\ResetTokenModel;
 use App\Models\ProjectModel;
 use App\Models\CommentModel;
 use App\Models\TimingModel;
@@ -17,6 +18,7 @@ class UserHome extends Controller
     public function __construct() {
         $this->timingModel = new TimingModel();
         helper('form');
+        $this->resetToken = new resetTokenModel();
         $this->loginModel = new LoginModel();
         $this->projectModel = new ProjectModel();
         $this->commentModel = new CommentModel();
@@ -87,7 +89,20 @@ class UserHome extends Controller
     {
         echo view("templates/header");
         echo view("Login/reset_password_view");
-        // redirect()->to(base_url('FAH/Login/reset_password_view'));
+    }
+
+    public function change_pwd($uid,$token=""){
+        $result = $this->resetToken->removeToken($uid,$token);
+        if($result){
+            $data["role"] = '0';
+            echo view('templates/header');
+            echo view('Login/change_pwd', ["uid"=>$uid]);
+        }
+        else{
+            $data["message"] = "Invalid Token";
+            echo view('errors/html/error_404',$data);
+        }
+        
     }
 
     public function reset_password()
@@ -105,7 +120,7 @@ class UserHome extends Controller
                 $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].','.'<br><br>'
                         . 'Your reset password request has been received. Please verify within 60 minutes. Please click '
                         . 'the below link to reset your password.<br><br>'
-                        . '<a href="'.base_url().'/FAH/Login/change_pwd/'.$token.'">Click here to reset password</a><br><br>'
+                        . '<a href="'.base_url().'/FAH/UserHome/change_pwd/'.$token.'">Click here to reset password</a><br><br>'
                         . 'Thanks<br>Floored At Home';
                 $email = \Config\Services::email();
                 $email->setTo($to);
