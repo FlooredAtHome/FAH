@@ -93,13 +93,14 @@ class UserHome extends Controller
 
     public function change_pwd($uid,$token=""){
         $result = $this->resetToken->removeToken($uid,$token);
+        // print_r($result);
         if($result){
             $data["role"] = '0';
             echo view('templates/header');
             echo view('Login/change_pwd', ["uid"=>$uid]);
         }
         else{
-            $data["message"] = "Invalid Token";
+            $data["message"] = "Invalid Token or the token has expired";
             echo view('errors/html/error_404',$data);
         }
         
@@ -114,51 +115,54 @@ class UserHome extends Controller
         {
             if($this->loginModel->updatedAt($userdata['UID']))
             {
-                $to = $EMAIL;
-                $subject = 'Reset Password Link';
-                $token = $userdata['UID'];
-                $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].','.'<br><br>'
-                        . 'Your reset password request has been received. Please verify within 60 minutes. Please click '
-                        . 'the below link to reset your password.<br><br>'
-                        . '<a href="'.base_url().'/FAH/UserHome/change_pwd/'.$token.'">Click here to reset password</a><br><br>'
-                        . 'Thanks<br>Floored At Home';
-                $email = \Config\Services::email();
-                $email->setTo($to);
-                $email->setFrom('vaghasia84@gmail.com','Floored At Home');
-                $email->setSubject($subject);
-                $email->setMessage($message);
-                // $email->attach('C:\Users\PD\Downloads\users.pdf');
-                print_r($email);
-                if($email->send())
-                {
-                    $this->session()->setTempdata('success','Reset password link sent to your registerd email. Please verify within 60 minutes.',3);
-                    return redirect()->to(base_url('FAH/Login/reset_password_view'));
-                }
-                else
-                {
-                    $this->session->setTempdata('error','Unable to update. Please try again',3);
-                    return redirect()->to(base_url('FAH/Login/reset_password_view'));
-                }
+                    $uid = $userdata['UID'];
+                    $to = $EMAIL;
+                    $subject = 'Reset Password Link';
+                    $token = substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 50);
+                    $result = $this->resetToken->saveToken($token,$uid);
+                    if($result){
+                        $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].'<br><br>'
+                            . 'Your reset password request has been  received. Please click'
+                            . 'the below link to reset your password.<br><br>'
+                            . '<a href="'.base_url('FAH/UserHome/change_pwd').'/'.$uid.'/'.$token.'">Click here to reset password</a><br><br>'
+                            . 'Thanks<br>Floored At Home';
+                        $EMAIL = \Config\Services::email();
+                        $EMAIL->setTo($to);
+                        $EMAIL->setFrom('vaghasia84@gmail.com','Floored At Home');
+                        $EMAIL->setSubject($subject);
+                        $EMAIL->setMessage($message);
+                        if($EMAIL->send())
+                        {
+                            session()->setTempdata('success','Reset password link sent to registered email.',3);
+                            return redirect()->to(base_url('FAH/UserHome/reset_password_view'));
+                        }
+                        else{
+                            session()->setTempdata('error','Reset password link was not sent to registered email.',3);
+                            return redirect()->to(base_url('FAH/UserHome/reset_password_view'));
+                        }
+                    }
+                    else{
+                        session()->setTempdata('error','Reset password link already sent.',3);
+                        return redirect()->to(base_url('FAH/UserHome/reset_password_view'));
+                    }
             }
             else
             {
                 $this->session->setTempdata('error','Unable to update. Please try again',3);
-                return redirect()->to(base_url('FAH/Login/reset_password_view'));
+                return redirect()->to(base_url('FAH/UserHome/reset_password_view'));
             }
         }
         else
         {
             $this->session->setTempdata('error','Sorry! Email does not exists',3);
-            return redirect()->to(base_url('FAH/Login/reset_password_view'));
+            return redirect()->to(base_url('FAH/UserHome/reset_password_view'));
         }
     }
 
     public function logout(){
         $this->session->destroy();
-        // echo $this->session->get("email");
         return redirect()->to(base_url('FAH')); 
     }
-
 
     public function verify()
     {

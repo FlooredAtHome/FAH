@@ -19,9 +19,16 @@ class ResetTokenModel extends Model
         $builder = $db->table("reset_token");
         $result = $builder->select("*")->where('token',$token)->get()->getResultArray();
         if(count($result) == 1){
-            $builder->delete($data);
-            return true;
-        }
+            $currentTime = time();
+            $expiryTime = strtotime($result[0]["expiry"]);
+            if($currentTime < $expiryTime){
+                    return true;
+                }
+                else{
+                    $builder->delete($data);
+                    return false;
+                }
+            }
         else{
             return false;
         }
@@ -31,10 +38,22 @@ class ResetTokenModel extends Model
         $data = [
             'UID' => $UID,
             'token'  => $token,
+            'expiry' => date('Y-m-d h:i:s',time()+ (60*60*0.5)), // currently set to 60 seconds of expiry time
         ];
         $builder = $db->table("reset_token");
-        $builder->insert($data);
+        $result = $builder->select("UID")->where('UID',$UID)->get()->getResultArray();
+        // var_dump($result);
+        // exit;
+        if(count($result) >= 1){
+            return false;
+        }
+        else{
+            $builder->insert($data);
+            return true;
+        }
+        
     }
+
     public function customerUpdates($UID,$FIRST_NAME,$LAST_NAME,$EMAIL)
     {
         $db = \Config\Database::connect();

@@ -83,11 +83,11 @@ $hidden = ['uid'=> $uid];
 echo form_open(base_url().'/FAH/Reset/update_password','',$hidden) ?>
 <div class="form-group">
 <!-- <label>Your email</label> -->
-<input name="" class="form-control mt-3" id="npwd"  onkeyup="comparepass()" placeholder="Enter new password" type="text">
+<input class="form-control mt-3" id="npwd" name = "npwd" onkeyup="comparepass()" placeholder="Enter new password" type="text"/>
 </div> <!-- form-group// -->
 <div class="form-group">
 <!-- <label>Your password</label> -->
-<input class="form-control mt-3" id="cpwd"  onkeyup="comparepass()" placeholder="Confirm new password" type="text">
+<input class="form-control mt-3" id="cpwd" name = "cpwd" onkeyup="comparepass()" placeholder="Confirm new password" type="text"/>
 </div> <!-- form-group// -->
 <div class="form-group">
 </div> <!-- form-group// -->

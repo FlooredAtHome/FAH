@@ -38,6 +38,7 @@ class Reset extends Controller
         $uid= $this->request->getPost('uid');
         $npass = $this->request->getPost('npwd');
         $cpass = $this->request->getPost('cpwd');
+        // echo $cpass;
         $error = "Changed Password Successfully";
         if($npass == null || $cpass==null){
             echo "Render Error Page";
@@ -51,7 +52,6 @@ class Reset extends Controller
                 echo "Fatal Error";
             }
         }
-        
     }
     public function user_home(){
         if($this->session->get('email')!=''){

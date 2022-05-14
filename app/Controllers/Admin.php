@@ -39,7 +39,8 @@ class Admin extends Controller
     //     }
     // }
     public function index()
-    {
+    {   
+        if($this->session->get("email") !="" && $this->session->get('roleid') == 1){
             $data["email"] = $this->session->get('email');
             $data["role"] = $this->session->get('roleid');
             $data["page"] = "";
@@ -48,6 +49,12 @@ class Admin extends Controller
             echo view("templates/header");
             echo view("templates/navbar",["data"=>$data]);
             echo view("Admin/admin", ["customerdata"=>$customerdata, "vendordata"=>$vendordata]);
+        }
+        else{
+            $data["message"] = "Unauthorized Access";
+            echo view("errors/html/error_404",$data);
+        }
+            
     }
     public function updateCustomer()
     {
@@ -133,27 +140,39 @@ class Admin extends Controller
             {
                 if($this->loginModel->updatedAt($userdata['UID']))
                 {
+                    $uid = $userdata['UID'];
                     $to = $EMAIL;
                     $subject = 'Reset Password Link';
                     $token = substr(str_shuffle("0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"), 0, 50);
-                    $this->resetToken->saveToken($token,$userdata['UID']);
-                    
-                    $uid = $userdata['UID'];
-                    $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].'<br><br>'
+                    $result = $this->resetToken->saveToken($token,$uid);
+                    if($result){
+                        $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].'<br><br>'
                             . 'Your reset password request has been  received. Please click'
                             . 'the below link to reset your password.<br><br>'
                             . '<a href="'.base_url('FAH/UserHome/change_pwd').'/'.$uid.'/'.$token.'">Click here to reset password</a><br><br>'
                             . 'Thanks<br>Floored At Home';
-                    $EMAIL = \Config\Services::email();
-                    $EMAIL->setTo($to);
-                    $EMAIL->setFrom('vaghasia84@gmail.com','Floored At Home');
-                    $EMAIL->setSubject($subject);
-                    $EMAIL->setMessage($message);
-                    if($EMAIL->send())
-                    {
-                        session()->setTempdata('successcust','Reset password link sent to registered email.',3);
-                        return redirect()->to(base_url('FAH/Admin/index'));
+                        $EMAIL = \Config\Services::email();
+                        $EMAIL->setTo($to);
+                        $EMAIL->setFrom('vaghasia84@gmail.com','Floored At Home');
+                        $EMAIL->setSubject($subject);
+                        $EMAIL->setMessage($message);
+                        if($EMAIL->send())
+                        {
+                            session()->setTempdata('successcust','Reset password link sent to registered email.',3);
+                            return redirect()->to(base_url('FAH/Admin/index'));
+                        }
+                        else{
+                            session()->setTempdata('errorcust','Reset password link was not sent to registered email.',3);
+                            return redirect()->to(base_url('FAH/Admin/index'));
+                        }
                     }
+                    else{
+                        session()->setTempdata('errorcust','Reset password link already sent.',3);
+                        return redirect()->to(base_url('FAH/Admin/index'));
+                        // $data["message"] = "Duplicate Record";
+                        // echo view("errors/html/error_404",$data);
+                    }
+                    
                 }
                 else
                 {
@@ -562,12 +581,12 @@ class Admin extends Controller
                 }
                 else
                 {
-                    $mp_image_url = base_url('public/assets/images/No_Image_Available.jpg');
+                    $mp_image_url = base_url('FAH/public/assets/images/No_Image_Available.jpg');
                 }
             }
             else
             {
-                $mp_image_url = base_url('public/assets/images/No_Image_Available.jpg');;
+                $mp_image_url = base_url('FAH/public/assets/images/No_Image_Available.jpg');;
             }
             $email = $po_data["Owner"]["email"];
             $mname = $po_data["Owner"]["name"];

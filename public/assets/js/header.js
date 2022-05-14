@@ -1,8 +1,8 @@
-window.onload=function(){
+$(document).ready(function(){
     document.getElementById("proptable").style.display="none";
     document.getElementById("logintable").style.display="block";
     document.getElementById("invtable").style.display="none";
-}
+});
 var userlogs = [];
 var invlogs=[];
 // var email=document.getElementById("user").innerHTML;
@@ -38,3 +38,6 @@ function proptime(btntime){
     request.onreadystatechange = function() { if (request.readyState === 4 && request.status === 200) { console.log(request.responseText); } }
     request.send(str_json);
 }
+
+
+ 

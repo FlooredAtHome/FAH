@@ -39,7 +39,13 @@
     <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/logger.js")?>></script>
     <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/header.js")?>></script>
     <script type="text/javascript" src=<?php echo base_url("FAH/public/assets/js/lightslider.js")?>></script>
-
+    <?php 
+    $this->session = \Config\Services::session();
+    if($this->session->get("email") != ""){
+        echo '<script type="text/javascript" src="'.base_url("FAH/public/assets/js/autologout.js").'"></script>';
+    }
+    
+    ?>
 
     <!-- jQuery Datatable -->
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.11.5/css/dataTables.jqueryui.min.css"/>
