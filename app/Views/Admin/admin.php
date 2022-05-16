@@ -52,7 +52,7 @@
 <div class="tab-content" id="nav-tabContent">
     <div class="tab-pane logsbody fade show active" id="nav-customer" role="tabpanel" aria-labelledby="nav-customer-tab">
         <div class="col-12" id="logintable">
-            <div class="container mt-3 p-0 table-responsive mt-1">
+            <div class="container mt-3 table-responsive mt-1 bg-white p-5">
                 <div class="row">
                 <h3>Customers Detail:</h3><br>
                 <?php if(session()->getTempdata('errorcust')): ?>
@@ -61,7 +61,7 @@
                 <?php if(session()->getTempdata('successcust')): ?>
                 <div class="alert alert-success"> <?= session()->getTempdata('successcust'); ?> </div>
                 <?php endif; ?>
-                <table id="customerlist" class="table table-striped table-hover align-middle" style="background: white; border-radius: 2px;">
+                <table id="customerlist" class="table table-striped  table-bordered table-hover align-middle" style="background: white; border-radius: 2px;">
                     <thead>
                         <tr>
                         <th>View</th>
@@ -130,7 +130,7 @@
 <!-- Vendors Table -->
 
 <div class="tab-pane fade" id="nav-vendor" role="tabpanel" aria-labelledby="nav-vendor-tab">
-    <div class="container mt-3 p-0 table-responsive mt-1">
+    <div class="container mt-3 p-0 table-responsive mt-1 bg-white p-5">
         <div class="row">
             <div class="mb-2">
                 <h3>Vendors Detail:</h3>

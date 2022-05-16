@@ -1,36 +1,16 @@
 <?php
 
 namespace App\Controllers;
-use App\Models\CustomerModel;
-use App\Models\VendorModel;
-use App\Models\ResetTokenModel;
-use App\Models\LoginModel;
-use App\Models\ProjectModel;
-use App\Models\TimingModel;
-use App\Models\CommentModel;
-use App\Models\APIModel;
-use App\Models\APILoginModel;
-use CodeIgniter\RESTful\ResourceController;
-use \Firebase\JWT\JWT;
 
+// use CodeIgniter\RESTful\ResourceController;
 
-use CodeIgniter\Controller;
-
-class Admin extends Controller
+class Admin extends BaseController
 {
-    function __construct() 
-    {
-        $this->rc = new ResourceController();
-        $this->resetToken = new ResetTokenModel();
-        $this->loginModel = new LoginModel();
-        $this->customerModel = new CustomerModel();
-        $this->vendorModel = new VendorModel();
-        $this->commentModel = new CommentModel();
-        $this->timingModel = new TimingModel();
-        $this->projectModel = new ProjectModel();
-        $this->session = session();
+    // function __construct() 
+    // {
+    //     $this->rc = new ResourceController();
         
-    }
+    // }
     // public function check(){
     //     if($this->session->get('email') == '' && $this->session->get('roleid') == '' || $this->session->get('roleid') != '1'){
     //         $this->session->destroy();
@@ -58,7 +38,7 @@ class Admin extends Controller
     }
     public function updateCustomer()
     {
-        if($this->request->getMethod() == 'post')
+        if($this->request->getMethod() == 'post' && $this->session->get("roleid") == 1)
         {
             $UID = $this->request->getPost('uid');
             $FIRST_NAME = $this->request->getPost('newfirstname');
@@ -84,7 +64,7 @@ class Admin extends Controller
     }
     public function updateVendor()
     {
-        if($this->request->getMethod() == 'post')
+        if($this->request->getMethod() == 'post' && $this->session->get("roleid") == 1)
         {
             $UID = $this->request->getPost('uid');
             $FIRST_NAME = $this->request->getPost('newfirstname');
@@ -98,7 +78,7 @@ class Admin extends Controller
             }
             else
             {
-                $this->session->setTempdata('errorvend','Sorry! Try again after some time.',3);
+                $this->session->setTempdata('errorvend','Sorry! Could not update the details.',3);
                 return redirect()->to(base_url('FAH/Admin/index'));
             }
         }
@@ -110,7 +90,7 @@ class Admin extends Controller
     }
     public function insertVendor()
     {
-        if($this->request->getMethod() == 'post')
+        if($this->request->getMethod() == 'post' && $this->session->get("roleid") == 1)
         {
             $FIRST_NAME = $this->request->getPost('firstname');
             $LAST_NAME = $this->request->getPost('lastname');
@@ -131,7 +111,7 @@ class Admin extends Controller
     }
     public function reset_password_via_admin()
     {
-        if($this->request->getMethod() == 'post')
+        if($this->request->getMethod() == 'post' && $this->session->get("roleid") == 1)
         {
             $data = [];
             $EMAIL = $this->request->getPost('EMAIL');
@@ -191,57 +171,6 @@ class Admin extends Controller
             $this->session->setTempdata('errorcust','Sorry! Try again after some time.',3);
             return redirect()->to(base_url('FAH/Admin/index'));
         }
-    }
-    public function resetpasswordvendorLink()
-    {
-    if($this->request->getMethod() == 'post')
-    {
-        $data = [];
-        $EMAIL = $this->request->getPost('EMAIL');
-        $userdata = $this->loginModel->verifyEmail($EMAIL);
-        if(!empty($userdata))
-        {
-            if($this->loginModel->updatedAt($userdata['UID']))
-            {
-                $to = $EMAIL;
-                $subject = 'Reset Password Link';
-                $token = $userdata['UID'];
-                $message = 'Hi '.$userdata['FIRST_NAME'].' '.$userdata['LAST_NAME'].'<br><br>'
-                        . 'Your reset password request has been  received. Please click'
-                        . 'the below link to reset your password.<br><br>'
-                        . '<a href="'.base_url('/UserHome/change_pwd').''.$token.'">Click here to reset password</a><br><br>'
-                        . 'Thanks<br>Floored At Home';
-                $EMAIL = \Config\Services::email();
-                $EMAIL->setTo($to);
-                $EMAIL->setFrom('vaghasia84@gmail.com','Floored At Home');
-                $EMAIL->setSubject($subject);
-                $EMAIL->setMessage($message);
-                if($EMAIL->send())
-                {
-                    session()->setTempdata('successvend','Reset password link sent to registered email.',3);
-                    return redirect()->to(base_url('FAH/Admin/index'));
-                }
-                else{
-                    return redirect()->to(base_url('FAH/Admin/index'));
-                }
-            }
-            else
-            {
-                $this->session->setTempdata('errorvend','Unable to update. Please try again',3);
-                return redirect()->to(base_url('FAH/Admin/index'));
-            }
-        }
-        else
-        {
-            $this->session->setTempdata('errorvend','Sorry! Email does not exists',3);
-            return redirect()->to(base_url('FAH/Admin/index'));
-        }
-    }
-    else
-    {
-        $this->session->setTempdata('errorvend','Sorry! Try again after some time.',3);
-        return redirect()->to(base_url('FAH/Admin/index'));
-    }
     }
     public function getRecordById($module,$pid,$token)
     {
@@ -312,7 +241,7 @@ class Admin extends Controller
 
     public function projectView($id)
     {
-        if($this->session->get('email')!='')
+        if($this->session->get('email')!='' && $this->session->get("roleid") == 1)
         {
             $task_data =  $this->getClickuptask($id);
             $data["role"] = "2";
@@ -535,7 +464,7 @@ class Admin extends Controller
     }
     public function customerView()
     {
-        if($this->session->get("roleid")=="1"){
+        if($this->session->get("roleid")== 1){
             $data['role'] = $this->session->get("roleid");
             $data['email'] = $this->session->get("email");
             $data['page'] = "customerView";

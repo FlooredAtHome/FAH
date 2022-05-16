@@ -2,28 +2,12 @@
 
 namespace App\Controllers;
 
-use CodeIgniter\Controller;
-use App\Models\LoginModel;
-use App\Models\ResetTokenModel;
-use App\Models\ProjectModel;
-use App\Models\CommentModel;
-use App\Models\TimingModel;
-use App\Models\VendorModel;
-use CodeIgniter\I18n\Time;
-
-class UserHome extends Controller
+class UserHome extends BaseController
 {
     public $loginModel;
     
     public function __construct() {
-        $this->timingModel = new TimingModel();
-        helper('form');
-        $this->resetToken = new resetTokenModel();
-        $this->loginModel = new LoginModel();
-        $this->projectModel = new ProjectModel();
-        $this->commentModel = new CommentModel();
-        $this->vendorModel = new vendorModel();
-        $this->session = session();
+        $this->session = \Config\Services::session();
         if($this->session->get('email') != '')
         {
             if($this->session->get('roleid') == 1){
@@ -104,6 +88,26 @@ class UserHome extends Controller
             echo view('errors/html/error_404',$data);
         }
         
+    }
+
+    public function update_password(){
+        $uid= $this->request->getPost('uid');
+        $npass = $this->request->getPost('npwd');
+        $cpass = $this->request->getPost('cpwd');
+        // echo $cpass;
+        $error = "Changed Password Successfully";
+        if($npass == null || $cpass==null){
+            echo "Render Error Page";
+        }
+        else{
+            $data = $this->loginModel->updatepass($npass,$uid);
+            if($data){
+                return redirect()->to(base_url('FAH'));
+            }
+            else{
+                echo "Fatal Error";
+            }
+        }
     }
 
     public function reset_password()

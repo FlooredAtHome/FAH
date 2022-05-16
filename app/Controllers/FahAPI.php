@@ -11,98 +11,6 @@ use CodeIgniter\I18n\Time;
 
 class FahAPI extends ResourceController
 {
-    private function getKey()
-    {
-        return "mahek";
-    }
-
-    public function login()
-    {
-        $rules = [
-            "email" => "required|valid_email|min_length[6]",
-            "password" => "required",
-        ];
-
-        $messages = [
-            "email" => [
-                "required" => "Email required",
-                "valid_email" => "Email address is not in format"
-            ],
-            "password" => [
-                "required" => "password is required"
-            ],
-        ];
-
-        if (!$this->validate($rules, $messages)) {
-
-            $response = [
-                'status' => 500,
-                'error' => true,
-                'message' => $this->validator->getErrors(),
-                'data' => []
-            ];
-
-            return $this->respondCreated($response);
-            
-        } else {
-            $apiloginModel = new APILoginModel();
-
-            $userdata = $apiloginModel->where("email", $this->request->getVar("email"))->first();
-
-            if (!empty($userdata)) {
-
-                $password = $this->request->getVar("password");
-                if ($password == $userdata['password']) {
-
-                    $key = $this->getKey();
-
-                    $iat = time(); // current timestamp value
-                    $nbf = $iat + 10;
-                    $exp = $iat + 3600;
-
-                    $payload = array(
-                        "iss" => "The_claim",
-                        "aud" => "The_Aud",
-                        "iat" => $iat, // issued at
-                        "nbf" => $nbf, //not before in seconds
-                        "exp" => $exp, // expire time in seconds
-                        "data" => $userdata,
-                    );
-
-                    $token = JWT::encode($payload, $key);
-
-                    $response = [
-                        'status' => 200,
-                        'error' => false,
-                        'messages' => 'User logged In successfully',
-                        'data' => [
-                            'token' => $token
-                        ]
-                    ];
-                    return $this->respondCreated($response);
-                } else {
-
-                    $response = [
-                        'status' => 500,
-                        'error' => true,
-                        'messages' => 'Incorrect details',
-                        'data' => []
-                    ];
-                    return $this->respondCreated($response);
-                }
-            } else {
-                $response = [
-                    'status' => 500,
-                    'error' => true,
-                    'messages' => 'User not found',
-                    'data' => []
-                ];
-                return $this->respondCreated($response);
-            }
-        }
-    }
-
-
     public function view($id = ""){
         if(empty($id)){
             $response = [
@@ -114,13 +22,11 @@ class FahAPI extends ResourceController
             return $this->respondCreated($response);
         }
         else{
-            $key = $this->getKey();
+            $key = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9";
             $authHeader = $this->request->getHeader("Authorization");
             $authHeader = $authHeader->getValue();
-            $token = $authHeader;
-            $decoded = JWT::decode($token, $key, array("HS256"));
             $model = new APIModel();
-            if ($decoded) {
+            if ($authHeader == $key) {
                 $data = $model->viewUser($id);
                 foreach($data as $row){
                     $response = [
@@ -140,14 +46,12 @@ class FahAPI extends ResourceController
     }
     public function create($role = '')
     {
-        if($role == '2' || $role == '3'){
-        $key = $this->getKey();
+        if($role == 'vendor' || $role == 'customer'){
+        $roleuser =['vendor' => '2', 'customer' => '3'];
+        $key = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9";
         $authHeader = $this->request->getHeader("Authorization");
-        $authHeader = $authHeader->getValue();
-        $token = $authHeader;
-        try {
-            $decoded = JWT::decode($token, $key, array("HS256"));
-            if ($decoded) {
+        $token = $authHeader->getValue();
+            if ($key == $token) {
                 $rules = [
                     'first_name' => 'required',
                     'last_name' => 'required',
@@ -163,7 +67,7 @@ class FahAPI extends ResourceController
                     $userdata = [
                         'FIRST_NAME' => $this->request->getVar('first_name'),
                         'LAST_NAME' => $this->request->getVar('last_name'),
-                        'RID' => $role,
+                        'RID' => $roleuser[$role],
                         'EMAIL' => $this->request->getVar('email')
                     ];
                     $model = new APIModel();
@@ -171,7 +75,7 @@ class FahAPI extends ResourceController
                     $projectdata = [
                         'ZC_ID' => $this->request->getVar('zcid')
                     ];
-                    $model->insertId($role,$userdata['EMAIL'],$projectdata['ZC_ID']);
+                    $model->insertId($roleuser[$role],$userdata['EMAIL'],$projectdata['ZC_ID']);
                     $token = $model->getUserData($userdata['EMAIL']);
                     // EMAIL on Create
                     // $to = $userdata["EMAIL"];
@@ -210,16 +114,6 @@ class FahAPI extends ResourceController
                     
                 }
             }
-        } catch (Exception $ex) {
-          
-            $response = [
-                'status' => 405,
-                'error' => true,
-                'messages' => 'Access denied',
-                'data' => []
-            ];
-            return $this->respondCreated($response);
-        }
         }
         else{
             $response = [

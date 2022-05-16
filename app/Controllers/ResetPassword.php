@@ -2,19 +2,16 @@
 
 namespace App\Controllers;
 
-use CodeIgniter\Controller;
-use App\Models\LoginModel;
-
-class ResetPassword extends Controller
+class ResetPassword extends BaseController
 {
     public $loginModel;
     public $session;
-    public function __construct() {
-        helper('form');
-        $this->loginModel = new LoginModel();
-        $this->session = session();
+    // public function __construct() {
+    //     helper('form');
+    //     $this->loginModel = new LoginModel();
+    //     $this->session = session();
 
-    }
+    // }
     public function reset_password_view()
     {
         return view("reset_password_view");

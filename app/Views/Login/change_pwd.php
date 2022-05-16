@@ -80,7 +80,7 @@ echo form_open(base_url().'/FAH/Reset/update_password','',$hidden) ?>
 <h4 class="card-title mb-4 mt-1">Reset Password</h4>
 <?php
 $hidden = ['uid'=> $uid]; 
-echo form_open(base_url().'/FAH/Reset/update_password','',$hidden) ?>
+echo form_open(base_url().'/FAH/UserHome/update_password','',$hidden) ?>
 <div class="form-group">
 <!-- <label>Your email</label> -->
 <input class="form-control mt-3" id="npwd" name = "npwd" onkeyup="comparepass()" placeholder="Enter new password" type="text"/>
